@@ -1,0 +1,7598 @@
+[
+  {
+    "id": "math-period-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "赤、青、黄の順にカードをならべます。この順番をくり返すと、20番目はどれですか？",
+    "choices": [
+      "赤",
+      "青",
+      "黄",
+      "わからない"
+    ],
+    "answer": "青",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "赤、青、黄で3こ1セットです。",
+      "20番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "赤、青、黄で3こ1セットです。20番目はそのくり返しの中で「青」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-001-exam"
+  },
+  {
+    "id": "math-period-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "丸、三角、四角の順にカードをならべます。この順番をくり返すと、18番目はどれですか？",
+    "choices": [
+      "丸",
+      "三角",
+      "四角",
+      "わからない"
+    ],
+    "answer": "四角",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "丸、三角、四角で3こ1セットです。",
+      "18番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "丸、三角、四角で3こ1セットです。18番目はそのくり返しの中で「四角」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-002-exam"
+  },
+  {
+    "id": "math-period-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "A、B、C、Dの順にカードをならべます。この順番をくり返すと、23番目はどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "thinkingChoices": [
+      "4こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "4こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "A、B、C、Dで4こ1セットです。",
+      "23番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "A、B、C、Dで4こ1セットです。23番目はそのくり返しの中で「C」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-003-exam"
+  },
+  {
+    "id": "math-period-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "白、黒の順にカードをならべます。この順番をくり返すと、17番目はどれですか？",
+    "choices": [
+      "白",
+      "黒",
+      "わからない"
+    ],
+    "answer": "白",
+    "thinkingChoices": [
+      "2こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "白、黒で2こ1セットです。",
+      "17番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "白、黒で2こ1セットです。17番目はそのくり返しの中で「白」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-004-exam"
+  },
+  {
+    "id": "math-period-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "1、2、3の順にカードをならべます。この順番をくり返すと、25番目はどれですか？",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "わからない"
+    ],
+    "answer": "1",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "1、2、3で3こ1セットです。",
+      "25番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "1、2、3で3こ1セットです。25番目はそのくり返しの中で「1」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-005-exam"
+  },
+  {
+    "id": "math-period-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "花、星、月の順にカードをならべます。この順番をくり返すと、19番目はどれですか？",
+    "choices": [
+      "花",
+      "星",
+      "月",
+      "わからない"
+    ],
+    "answer": "花",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "花、星、月で3こ1セットです。",
+      "19番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "花、星、月で3こ1セットです。19番目はそのくり返しの中で「花」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-006-exam"
+  },
+  {
+    "id": "math-period-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しに気づく",
+    "thinkingType": "何個で1セットかを見つけ、あまりで考える",
+    "examRelevance": "中学受験算数の周期算・規則性問題の入口",
+    "title": "くり返しの順番",
+    "question": "右、左、上の順にカードをならべます。この順番をくり返すと、22番目はどれですか？",
+    "choices": [
+      "右",
+      "左",
+      "上",
+      "わからない"
+    ],
+    "answer": "右",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "同じ順番にもどるまでを1セットと見ます。",
+      "右、左、上で3こ1セットです。",
+      "22番目が1セットの何番目になるか考えよう。"
+    ],
+    "explanation": "右、左、上で3こ1セットです。22番目はそのくり返しの中で「右」の場所になります。",
+    "childTip": "くり返しは、何こで1セットかを先に見つけよう。",
+    "parentTip": "周期算の入口です。式より先に、1セットを見抜く経験を重ねます。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "くり返し"
+    ],
+    "nextAbstractQuestionId": "math-period-007-exam"
+  },
+  {
+    "id": "math-logic-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。Aさんは左ではありません。Bさんはまん中です。 Cさんはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "まだ決められない"
+    ],
+    "answer": "左",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、Cさんは左です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、Cさんは左だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-001-exam"
+  },
+  {
+    "id": "math-logic-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。Aさんは赤ではありません。Bさんは青です。 Cさんはどこですか？",
+    "choices": [
+      "赤",
+      "左",
+      "まん中",
+      "まだ決められない"
+    ],
+    "answer": "赤",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、Cさんは赤です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、Cさんは赤だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-002-exam"
+  },
+  {
+    "id": "math-logic-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。Aさんは1番ではありません。Cさんは3番です。 Bさんはどこですか？",
+    "choices": [
+      "1番",
+      "左",
+      "まん中",
+      "まだ決められない"
+    ],
+    "answer": "1番",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、Bさんは1番です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、Bさんは1番だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-003-exam"
+  },
+  {
+    "id": "math-logic-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。Bさんは右ではありません。Cさんは左です。 Bさんはどこですか？",
+    "choices": [
+      "まん中",
+      "左",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、Bさんはまん中です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、Bさんはまん中だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-004-exam"
+  },
+  {
+    "id": "math-logic-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。赤い箱は上ではありません。青い箱は下です。 赤い箱はどこですか？",
+    "choices": [
+      "まん中",
+      "左",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、赤い箱はまん中です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、赤い箱はまん中だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-005-exam"
+  },
+  {
+    "id": "math-logic-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。Aさんは大きい皿ではありません。Bさんは小さい皿です。 Cさんはどこですか？",
+    "choices": [
+      "大きい皿",
+      "左",
+      "まん中",
+      "まだ決められない"
+    ],
+    "answer": "大きい皿",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、Cさんは大きい皿です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、Cさんは大きい皿だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-006-exam"
+  },
+  {
+    "id": "math-logic-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を1つずつ整理する",
+    "thinkingType": "決まっている条件から順番に場所を決める",
+    "examRelevance": "中学受験算数の条件整理、推理問題につながる",
+    "title": "条件から決めよう",
+    "question": "3つの場所やものを決めます。丸は右ではありません。三角は左です。 四角はどこですか？",
+    "choices": [
+      "右",
+      "左",
+      "まん中",
+      "まだ決められない"
+    ],
+    "answer": "右",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まず決まっている条件を書きます。",
+      "使えない場所を消して考えます。",
+      "残った場所を見ると、四角は右です。"
+    ],
+    "explanation": "条件を1つずつ入れて、使えない場所を消すと、四角は右だと分かります。",
+    "childTip": "決まったことから書くと、残りが見えやすいよ。",
+    "parentTip": "条件整理の基本です。表やメモで消去法を使う土台になります。",
+    "tags": [
+      "条件整理",
+      "推理"
+    ],
+    "nextAbstractQuestionId": "math-logic-007-exam"
+  },
+  {
+    "id": "math-counting-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "3枚のカードを1列にならべます。Aをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "2通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは2枚です。",
+      "残り2枚は入れかえで2通りです。"
+    ],
+    "explanation": "左を固定すると、残り2枚のならべ方を考えればよいです。答えは2通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-001-exam"
+  },
+  {
+    "id": "math-counting-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "4枚のカードを1列にならべます。Bをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは3枚です。",
+      "残り3枚は6通りです。"
+    ],
+    "explanation": "左を固定すると、残り3枚のならべ方を考えればよいです。答えは6通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-002-exam"
+  },
+  {
+    "id": "math-counting-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "3枚のカードを1列にならべます。Cをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "2通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは2枚です。",
+      "残り2枚は入れかえで2通りです。"
+    ],
+    "explanation": "左を固定すると、残り2枚のならべ方を考えればよいです。答えは2通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-003-exam"
+  },
+  {
+    "id": "math-counting-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "4枚のカードを1列にならべます。Dをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは3枚です。",
+      "残り3枚は6通りです。"
+    ],
+    "explanation": "左を固定すると、残り3枚のならべ方を考えればよいです。答えは6通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-004-exam"
+  },
+  {
+    "id": "math-counting-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "3枚のカードを1列にならべます。Aをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "2通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは2枚です。",
+      "残り2枚は入れかえで2通りです。"
+    ],
+    "explanation": "左を固定すると、残り2枚のならべ方を考えればよいです。答えは2通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-005-exam"
+  },
+  {
+    "id": "math-counting-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "4枚のカードを1列にならべます。Bをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは3枚です。",
+      "残り3枚は6通りです。"
+    ],
+    "explanation": "左を固定すると、残り3枚のならべ方を考えればよいです。答えは6通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-006-exam"
+  },
+  {
+    "id": "math-counting-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "もれなく数える",
+    "thinkingType": "一部を固定して順番に書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく数える力につながる",
+    "title": "ならべ方を数えよう",
+    "question": "3枚のカードを1列にならべます。Cをいちばん左に固定すると、ならべ方は何通りありますか？",
+    "choices": [
+      "1通り",
+      "2通り",
+      "6通り",
+      "24通り"
+    ],
+    "answer": "2通り",
+    "thinkingChoices": [
+      "左を固定して、残りを順番に書き出した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "左を固定して、残りを順番に書き出した",
+    "hints": [
+      "左はもう決まっています。",
+      "残りは2枚です。",
+      "残り2枚は入れかえで2通りです。"
+    ],
+    "explanation": "左を固定すると、残り2枚のならべ方を考えればよいです。答えは2通りです。",
+    "childTip": "固定できる場所を先に決めると、数えやすくなるよ。",
+    "parentTip": "場合の数の基本です。固定して書き出す方法の練習になります。",
+    "tags": [
+      "場合の数",
+      "ならべ方"
+    ],
+    "nextAbstractQuestionId": "math-counting-007-exam"
+  },
+  {
+    "id": "math-table-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は3こ、火曜日は5こ、水曜日は4こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "火曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "3、5、4の中で一番大きい数を探します。",
+      "5こが一番多く、火曜日です。"
+    ],
+    "explanation": "3、5、4を比べると5が一番大きいです。5こは火曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-001-exam"
+  },
+  {
+    "id": "math-table-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は7こ、火曜日は2こ、水曜日は6こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "月曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "7、2、6の中で一番大きい数を探します。",
+      "7こが一番多く、月曜日です。"
+    ],
+    "explanation": "7、2、6を比べると7が一番大きいです。7こは月曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-002-exam"
+  },
+  {
+    "id": "math-table-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は4こ、火曜日は8こ、水曜日は5こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "火曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "4、8、5の中で一番大きい数を探します。",
+      "8こが一番多く、火曜日です。"
+    ],
+    "explanation": "4、8、5を比べると8が一番大きいです。8こは火曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-003-exam"
+  },
+  {
+    "id": "math-table-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は9こ、火曜日は6こ、水曜日は7こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "月曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "9、6、7の中で一番大きい数を探します。",
+      "9こが一番多く、月曜日です。"
+    ],
+    "explanation": "9、6、7を比べると9が一番大きいです。9こは月曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-004-exam"
+  },
+  {
+    "id": "math-table-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は5こ、火曜日は5こ、水曜日は8こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "水曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "5、5、8の中で一番大きい数を探します。",
+      "8こが一番多く、水曜日です。"
+    ],
+    "explanation": "5、5、8を比べると8が一番大きいです。8こは水曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-005-exam"
+  },
+  {
+    "id": "math-table-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は2こ、火曜日は7こ、水曜日は3こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "火曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "2、7、3の中で一番大きい数を探します。",
+      "7こが一番多く、火曜日です。"
+    ],
+    "explanation": "2、7、3を比べると7が一番大きいです。7こは火曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-006-exam"
+  },
+  {
+    "id": "math-table-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から必要な数を読む",
+    "thinkingType": "名前と数字を対応させて比べる",
+    "examRelevance": "中学受験算数の資料・表の読み取り問題につながる",
+    "title": "数を比べよう",
+    "question": "月曜日は6こ、火曜日は4こ、水曜日は9こでした。一番多いのは何曜日ですか？",
+    "choices": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "同じ"
+    ],
+    "answer": "水曜日",
+    "thinkingChoices": [
+      "曜日と数を合わせて、大きい数を比べた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "曜日と数を合わせて、大きい数を比べた",
+    "hints": [
+      "曜日と数をセットで見ます。",
+      "6、4、9の中で一番大きい数を探します。",
+      "9こが一番多く、水曜日です。"
+    ],
+    "explanation": "6、4、9を比べると9が一番大きいです。9こは水曜日です。",
+    "childTip": "数だけでなく、何の数かを合わせて読もう。",
+    "parentTip": "資料読解の入口です。ラベルと数の対応を見る力を育てます。",
+    "tags": [
+      "表",
+      "資料の読み取り"
+    ],
+    "nextAbstractQuestionId": "math-table-007-exam"
+  },
+  {
+    "id": "math-geometry-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて3マス、横4マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "7こ",
+      "12こ",
+      "14こ",
+      "11こ"
+    ],
+    "answer": "12こ",
+    "thinkingChoices": [
+      "1行に4こで、それが3行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に4こで、それが3行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に4マス。それが3行あります。",
+      "4こずつ3回数えます。"
+    ],
+    "explanation": "1行に4マスあり、それが3行あります。全部で12こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-001-exam"
+  },
+  {
+    "id": "math-geometry-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて2マス、横5マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "7こ",
+      "10こ",
+      "12こ",
+      "9こ"
+    ],
+    "answer": "10こ",
+    "thinkingChoices": [
+      "1行に5こで、それが2行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に5こで、それが2行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に5マス。それが2行あります。",
+      "5こずつ2回数えます。"
+    ],
+    "explanation": "1行に5マスあり、それが2行あります。全部で10こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-002-exam"
+  },
+  {
+    "id": "math-geometry-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて4マス、横4マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "8こ",
+      "16こ",
+      "18こ",
+      "15こ"
+    ],
+    "answer": "16こ",
+    "thinkingChoices": [
+      "1行に4こで、それが4行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に4こで、それが4行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に4マス。それが4行あります。",
+      "4こずつ4回数えます。"
+    ],
+    "explanation": "1行に4マスあり、それが4行あります。全部で16こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-003-exam"
+  },
+  {
+    "id": "math-geometry-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて3マス、横5マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "8こ",
+      "15こ",
+      "17こ",
+      "14こ"
+    ],
+    "answer": "15こ",
+    "thinkingChoices": [
+      "1行に5こで、それが3行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に5こで、それが3行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に5マス。それが3行あります。",
+      "5こずつ3回数えます。"
+    ],
+    "explanation": "1行に5マスあり、それが3行あります。全部で15こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-004-exam"
+  },
+  {
+    "id": "math-geometry-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて2マス、横6マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "8こ",
+      "12こ",
+      "14こ",
+      "11こ"
+    ],
+    "answer": "12こ",
+    "thinkingChoices": [
+      "1行に6こで、それが2行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に6こで、それが2行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に6マス。それが2行あります。",
+      "6こずつ2回数えます。"
+    ],
+    "explanation": "1行に6マスあり、それが2行あります。全部で12こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-005-exam"
+  },
+  {
+    "id": "math-geometry-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて5マス、横3マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "8こ",
+      "15こ",
+      "17こ",
+      "14こ"
+    ],
+    "answer": "15こ",
+    "thinkingChoices": [
+      "1行に3こで、それが5行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に3こで、それが5行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に3マス。それが5行あります。",
+      "3こずつ5回数えます。"
+    ],
+    "explanation": "1行に3マスあり、それが5行あります。全部で15こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-006-exam"
+  },
+  {
+    "id": "math-geometry-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を整理して数える",
+    "thinkingType": "同じ大きさのマスを、行ごとに分けて数える",
+    "examRelevance": "中学受験算数の図形の数え上げ、面積感覚につながる",
+    "title": "マス目を数えよう",
+    "question": "たて4マス、横6マスの長方形があります。小さいマスは全部でいくつありますか？",
+    "choices": [
+      "10こ",
+      "24こ",
+      "26こ",
+      "23こ"
+    ],
+    "answer": "24こ",
+    "thinkingChoices": [
+      "1行に6こで、それが4行あると考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "1行に6こで、それが4行あると考えた",
+    "hints": [
+      "1行には何マスあるかな？",
+      "横に6マス。それが4行あります。",
+      "6こずつ4回数えます。"
+    ],
+    "explanation": "1行に6マスあり、それが4行あります。全部で24こです。",
+    "childTip": "図形は、行ごと・列ごとに分けると数えやすいよ。",
+    "parentTip": "面積感覚と図形の数え上げの入口です。",
+    "tags": [
+      "図形",
+      "マス目",
+      "数え上げ"
+    ],
+    "nextAbstractQuestionId": "math-geometry-007-exam"
+  },
+  {
+    "id": "math-decompose-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で10こあります。そのうち4こを使いました。残りは何こですか？",
+    "choices": [
+      "6こ",
+      "4こ",
+      "14こ",
+      "8こ"
+    ],
+    "answer": "6こ",
+    "thinkingChoices": [
+      "4にいくつ足すと10になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "4にいくつ足すと10になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "4こから10こまではいくつかな？",
+      "10-4で考えます。"
+    ],
+    "explanation": "全部で10こあり、4こ使ったので、残りは6こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-001-exam"
+  },
+  {
+    "id": "math-decompose-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で12こあります。そのうち5こを使いました。残りは何こですか？",
+    "choices": [
+      "7こ",
+      "5こ",
+      "17こ",
+      "9こ"
+    ],
+    "answer": "7こ",
+    "thinkingChoices": [
+      "5にいくつ足すと12になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "5にいくつ足すと12になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "5こから12こまではいくつかな？",
+      "12-5で考えます。"
+    ],
+    "explanation": "全部で12こあり、5こ使ったので、残りは7こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-002-exam"
+  },
+  {
+    "id": "math-decompose-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で15こあります。そのうち7こを使いました。残りは何こですか？",
+    "choices": [
+      "8こ",
+      "7こ",
+      "22こ",
+      "10こ"
+    ],
+    "answer": "8こ",
+    "thinkingChoices": [
+      "7にいくつ足すと15になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "7にいくつ足すと15になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "7こから15こまではいくつかな？",
+      "15-7で考えます。"
+    ],
+    "explanation": "全部で15こあり、7こ使ったので、残りは8こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-003-exam"
+  },
+  {
+    "id": "math-decompose-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で18こあります。そのうち9こを使いました。残りは何こですか？",
+    "choices": [
+      "9こ",
+      "9こ",
+      "27こ",
+      "11こ"
+    ],
+    "answer": "9こ",
+    "thinkingChoices": [
+      "9にいくつ足すと18になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "9にいくつ足すと18になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "9こから18こまではいくつかな？",
+      "18-9で考えます。"
+    ],
+    "explanation": "全部で18こあり、9こ使ったので、残りは9こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-004-exam"
+  },
+  {
+    "id": "math-decompose-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で20こあります。そのうち6こを使いました。残りは何こですか？",
+    "choices": [
+      "14こ",
+      "6こ",
+      "26こ",
+      "16こ"
+    ],
+    "answer": "14こ",
+    "thinkingChoices": [
+      "6にいくつ足すと20になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "6にいくつ足すと20になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "6こから20こまではいくつかな？",
+      "20-6で考えます。"
+    ],
+    "explanation": "全部で20こあり、6こ使ったので、残りは14こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-005-exam"
+  },
+  {
+    "id": "math-decompose-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で14こあります。そのうち8こを使いました。残りは何こですか？",
+    "choices": [
+      "6こ",
+      "8こ",
+      "22こ",
+      "8こ"
+    ],
+    "answer": "6こ",
+    "thinkingChoices": [
+      "8にいくつ足すと14になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "8にいくつ足すと14になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "8こから14こまではいくつかな？",
+      "14-8で考えます。"
+    ],
+    "explanation": "全部で14こあり、8こ使ったので、残りは6こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-006-exam"
+  },
+  {
+    "id": "math-decompose-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "合計から足りない数を考える",
+    "thinkingType": "合計になる数の組を順番に探す",
+    "examRelevance": "中学受験算数の数の分解、場合分けの入口",
+    "title": "足りない数",
+    "question": "全部で16こあります。そのうち7こを使いました。残りは何こですか？",
+    "choices": [
+      "9こ",
+      "7こ",
+      "23こ",
+      "11こ"
+    ],
+    "answer": "9こ",
+    "thinkingChoices": [
+      "7にいくつ足すと16になるか考えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "7にいくつ足すと16になるか考えた",
+    "hints": [
+      "全部の数と、分かっている数を見ます。",
+      "7こから16こまではいくつかな？",
+      "16-7で考えます。"
+    ],
+    "explanation": "全部で16こあり、7こ使ったので、残りは9こです。",
+    "childTip": "全部が決まっているときは、残りを考えよう。",
+    "parentTip": "和の分解と逆算の入口です。",
+    "tags": [
+      "数の分解",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-decompose-007-exam"
+  },
+  {
+    "id": "math-time-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは3時00分です。3時20分まで、あと何分ですか？",
+    "choices": [
+      "20分",
+      "10分",
+      "30分",
+      "0分"
+    ],
+    "answer": "20分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "3時0分から3時20分までです。",
+      "あと20分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、3時0分から3時20分までは20分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-001-exam"
+  },
+  {
+    "id": "math-time-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは4時10分です。4時35分まで、あと何分ですか？",
+    "choices": [
+      "25分",
+      "15分",
+      "35分",
+      "0分"
+    ],
+    "answer": "25分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "4時10分から4時35分までです。",
+      "あと25分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、4時10分から4時35分までは25分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-002-exam"
+  },
+  {
+    "id": "math-time-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは2時45分です。3時05分まで、あと何分ですか？",
+    "choices": [
+      "20分",
+      "10分",
+      "30分",
+      "1分"
+    ],
+    "answer": "20分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "2時45分から3時5分までです。",
+      "あと20分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、2時45分から3時5分までは20分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-003-exam"
+  },
+  {
+    "id": "math-time-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは1時20分です。1時50分まで、あと何分ですか？",
+    "choices": [
+      "30分",
+      "20分",
+      "40分",
+      "0分"
+    ],
+    "answer": "30分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "1時20分から1時50分までです。",
+      "あと30分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、1時20分から1時50分までは30分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-004-exam"
+  },
+  {
+    "id": "math-time-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは5時30分です。6時00分まで、あと何分ですか？",
+    "choices": [
+      "30分",
+      "20分",
+      "40分",
+      "1分"
+    ],
+    "answer": "30分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "5時30分から6時0分までです。",
+      "あと30分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、5時30分から6時0分までは30分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-005-exam"
+  },
+  {
+    "id": "math-time-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは7時05分です。7時40分まで、あと何分ですか？",
+    "choices": [
+      "35分",
+      "25分",
+      "45分",
+      "0分"
+    ],
+    "answer": "35分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "7時5分から7時40分までです。",
+      "あと35分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、7時5分から7時40分までは35分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-006-exam"
+  },
+  {
+    "id": "math-time-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "時計・時間",
+    "examUnit": "時刻と時間",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "時刻の差を読む",
+    "thinkingType": "開始時刻から終わりの時刻までを分けて数える",
+    "examRelevance": "中学受験算数の時間計算の入口",
+    "title": "何分後かな",
+    "question": "いまは8時15分です。8時55分まで、あと何分ですか？",
+    "choices": [
+      "40分",
+      "30分",
+      "50分",
+      "0分"
+    ],
+    "answer": "40分",
+    "thinkingChoices": [
+      "今の時刻から終わりの時刻までを数えた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "今の時刻から終わりの時刻までを数えた",
+    "hints": [
+      "時計の分を進めて考えます。",
+      "8時15分から8時55分までです。",
+      "あと40分です。"
+    ],
+    "explanation": "時刻を少しずつ進めると、8時15分から8時55分までは40分です。",
+    "childTip": "時間は、時計を進めるように考えよう。",
+    "parentTip": "時刻と時間の区別に慣れる問題です。",
+    "tags": [
+      "時計",
+      "時間"
+    ],
+    "nextAbstractQuestionId": "math-time-007-exam"
+  },
+  {
+    "id": "math-money-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "80円のものと50円のものを買います。150円出すと、おつりはいくらですか？",
+    "choices": [
+      "20円",
+      "130円",
+      "70円",
+      "30円"
+    ],
+    "answer": "20円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "80円と50円で130円です。",
+      "150円から130円を引きます。"
+    ],
+    "explanation": "買うものは合わせて130円です。150円出すので、おつりは20円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-001-exam"
+  },
+  {
+    "id": "math-money-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "60円のものと70円のものを買います。150円出すと、おつりはいくらですか？",
+    "choices": [
+      "20円",
+      "130円",
+      "90円",
+      "30円"
+    ],
+    "answer": "20円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "60円と70円で130円です。",
+      "150円から130円を引きます。"
+    ],
+    "explanation": "買うものは合わせて130円です。150円出すので、おつりは20円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-002-exam"
+  },
+  {
+    "id": "math-money-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "120円のものと30円のものを買います。200円出すと、おつりはいくらですか？",
+    "choices": [
+      "50円",
+      "150円",
+      "80円",
+      "60円"
+    ],
+    "answer": "50円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "120円と30円で150円です。",
+      "200円から150円を引きます。"
+    ],
+    "explanation": "買うものは合わせて150円です。200円出すので、おつりは50円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-003-exam"
+  },
+  {
+    "id": "math-money-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "45円のものと35円のものを買います。100円出すと、おつりはいくらですか？",
+    "choices": [
+      "20円",
+      "80円",
+      "55円",
+      "30円"
+    ],
+    "answer": "20円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "45円と35円で80円です。",
+      "100円から80円を引きます。"
+    ],
+    "explanation": "買うものは合わせて80円です。100円出すので、おつりは20円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-004-exam"
+  },
+  {
+    "id": "math-money-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "90円のものと80円のものを買います。200円出すと、おつりはいくらですか？",
+    "choices": [
+      "30円",
+      "170円",
+      "110円",
+      "40円"
+    ],
+    "answer": "30円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "90円と80円で170円です。",
+      "200円から170円を引きます。"
+    ],
+    "explanation": "買うものは合わせて170円です。200円出すので、おつりは30円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-005-exam"
+  },
+  {
+    "id": "math-money-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "55円のものと65円のものを買います。150円出すと、おつりはいくらですか？",
+    "choices": [
+      "30円",
+      "120円",
+      "95円",
+      "40円"
+    ],
+    "answer": "30円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "55円と65円で120円です。",
+      "150円から120円を引きます。"
+    ],
+    "explanation": "買うものは合わせて120円です。150円出すので、おつりは30円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-006-exam"
+  },
+  {
+    "id": "math-money-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "お金",
+    "examUnit": "金額計算・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "金額を組み合わせる",
+    "thinkingType": "値段を足して、合計と比べる",
+    "examRelevance": "中学受験算数の金額、条件つき計算の入口",
+    "title": "おつりはいくら",
+    "question": "110円のものと60円のものを買います。200円出すと、おつりはいくらですか？",
+    "choices": [
+      "30円",
+      "170円",
+      "90円",
+      "40円"
+    ],
+    "answer": "30円",
+    "thinkingChoices": [
+      "2つの値段を足して、出したお金から引いた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "2つの値段を足して、出したお金から引いた",
+    "hints": [
+      "まず買うものの合計を出します。",
+      "110円と60円で170円です。",
+      "200円から170円を引きます。"
+    ],
+    "explanation": "買うものは合わせて170円です。200円出すので、おつりは30円です。",
+    "childTip": "お金の問題は、先に合計を出そう。",
+    "parentTip": "2段階の文章題です。計算順序の整理に役立ちます。",
+    "tags": [
+      "お金",
+      "たし算",
+      "ひき算"
+    ],
+    "nextAbstractQuestionId": "math-money-007-exam"
+  },
+  {
+    "id": "math-list-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が2しゅるい、下の服が2しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "4通り",
+      "4通り",
+      "2通り",
+      "6通り"
+    ],
+    "answer": "4通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は2通りです。",
+      "2つの上それぞれに2通りあります。"
+    ],
+    "explanation": "上の服2しゅるいそれぞれに、下の服2しゅるいを合わせられます。全部で4通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-001-exam"
+  },
+  {
+    "id": "math-list-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が2しゅるい、下の服が3しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "5通り",
+      "6通り",
+      "2通り",
+      "8通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は3通りです。",
+      "2つの上それぞれに3通りあります。"
+    ],
+    "explanation": "上の服2しゅるいそれぞれに、下の服3しゅるいを合わせられます。全部で6通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-002-exam"
+  },
+  {
+    "id": "math-list-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が3しゅるい、下の服が2しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "5通り",
+      "6通り",
+      "3通り",
+      "8通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は2通りです。",
+      "3つの上それぞれに2通りあります。"
+    ],
+    "explanation": "上の服3しゅるいそれぞれに、下の服2しゅるいを合わせられます。全部で6通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-003-exam"
+  },
+  {
+    "id": "math-list-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が3しゅるい、下の服が3しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "6通り",
+      "9通り",
+      "3通り",
+      "11通り"
+    ],
+    "answer": "9通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は3通りです。",
+      "3つの上それぞれに3通りあります。"
+    ],
+    "explanation": "上の服3しゅるいそれぞれに、下の服3しゅるいを合わせられます。全部で9通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-004-exam"
+  },
+  {
+    "id": "math-list-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が2しゅるい、下の服が4しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "6通り",
+      "8通り",
+      "2通り",
+      "10通り"
+    ],
+    "answer": "8通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は4通りです。",
+      "2つの上それぞれに4通りあります。"
+    ],
+    "explanation": "上の服2しゅるいそれぞれに、下の服4しゅるいを合わせられます。全部で8通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-005-exam"
+  },
+  {
+    "id": "math-list-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が4しゅるい、下の服が2しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "6通り",
+      "8通り",
+      "4通り",
+      "10通り"
+    ],
+    "answer": "8通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は2通りです。",
+      "4つの上それぞれに2通りあります。"
+    ],
+    "explanation": "上の服4しゅるいそれぞれに、下の服2しゅるいを合わせられます。全部で8通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-006-exam"
+  },
+  {
+    "id": "math-list-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "可能な組み合わせを順に書く",
+    "thinkingType": "片方を固定して、もれなく書き出す",
+    "examRelevance": "中学受験算数の場合の数で、もれなく書き出す力につながる",
+    "title": "組み合わせを数えよう",
+    "question": "上の服が3しゅるい、下の服が4しゅるいあります。上下の組み合わせは全部で何通りですか？",
+    "choices": [
+      "7通り",
+      "12通り",
+      "3通り",
+      "14通り"
+    ],
+    "answer": "12通り",
+    "thinkingChoices": [
+      "上を1つ決めて、下を順番に組み合わせた",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "上を1つ決めて、下を順番に組み合わせた",
+    "hints": [
+      "片方を1つ決めて考えます。",
+      "上1つにつき、下は4通りです。",
+      "3つの上それぞれに4通りあります。"
+    ],
+    "explanation": "上の服3しゅるいそれぞれに、下の服4しゅるいを合わせられます。全部で12通りです。",
+    "childTip": "組み合わせは、1つを決めて順番に書こう。",
+    "parentTip": "樹形図や表への発展につながる書き出し問題です。",
+    "tags": [
+      "書き出し",
+      "組み合わせ"
+    ],
+    "nextAbstractQuestionId": "math-list-007-exam"
+  },
+  {
+    "id": "math-word-001",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "りんごが8こ、みかんが6こ、バナナが4こあります。りんごとみかんは合わせて何こありますか？",
+    "choices": [
+      "14こ",
+      "12こ",
+      "18こ",
+      "10こ"
+    ],
+    "answer": "14こ",
+    "thinkingChoices": [
+      "聞かれているりんごとみかんだけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれているりんごとみかんだけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "りんごとみかんを聞かれています。バナナは使いません。",
+      "8こと6こを合わせます。"
+    ],
+    "explanation": "聞かれているのはりんごとみかんです。8こと6こを足して、14こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-001-exam"
+  },
+  {
+    "id": "math-word-002",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "赤い花が7こ、白い花が5こ、黄色い花が3こあります。赤い花と白い花は合わせて何こありますか？",
+    "choices": [
+      "12こ",
+      "10こ",
+      "15こ",
+      "8こ"
+    ],
+    "answer": "12こ",
+    "thinkingChoices": [
+      "聞かれている赤い花と白い花だけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれている赤い花と白い花だけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "赤い花と白い花を聞かれています。黄色い花は使いません。",
+      "7こと5こを合わせます。"
+    ],
+    "explanation": "聞かれているのは赤い花と白い花です。7こと5こを足して、12こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-002-exam"
+  },
+  {
+    "id": "math-word-003",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "えんぴつが12こ、けしゴムが4こ、ノートが6こあります。えんぴつとけしゴムは合わせて何こありますか？",
+    "choices": [
+      "16こ",
+      "18こ",
+      "22こ",
+      "10こ"
+    ],
+    "answer": "16こ",
+    "thinkingChoices": [
+      "聞かれているえんぴつとけしゴムだけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれているえんぴつとけしゴムだけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "えんぴつとけしゴムを聞かれています。ノートは使いません。",
+      "12こと4こを合わせます。"
+    ],
+    "explanation": "聞かれているのはえんぴつとけしゴムです。12こと4こを足して、16こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-003-exam"
+  },
+  {
+    "id": "math-word-004",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "丸シールが9こ、星シールが8こ、四角シールが5こあります。丸シールと星シールは合わせて何こありますか？",
+    "choices": [
+      "17こ",
+      "14こ",
+      "22こ",
+      "13こ"
+    ],
+    "answer": "17こ",
+    "thinkingChoices": [
+      "聞かれている丸シールと星シールだけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれている丸シールと星シールだけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "丸シールと星シールを聞かれています。四角シールは使いません。",
+      "9こと8こを合わせます。"
+    ],
+    "explanation": "聞かれているのは丸シールと星シールです。9こと8こを足して、17こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-004-exam"
+  },
+  {
+    "id": "math-word-005",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "本が15こ、カードが7こ、箱が2こあります。本とカードは合わせて何こありますか？",
+    "choices": [
+      "22こ",
+      "17こ",
+      "24こ",
+      "9こ"
+    ],
+    "answer": "22こ",
+    "thinkingChoices": [
+      "聞かれている本とカードだけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれている本とカードだけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "本とカードを聞かれています。箱は使いません。",
+      "15こと7こを合わせます。"
+    ],
+    "explanation": "聞かれているのは本とカードです。15こと7こを足して、22こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-005-exam"
+  },
+  {
+    "id": "math-word-006",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "青い玉が6こ、赤い玉が11こ、緑の玉が4こあります。青い玉と赤い玉は合わせて何こありますか？",
+    "choices": [
+      "17こ",
+      "10こ",
+      "21こ",
+      "15こ"
+    ],
+    "answer": "17こ",
+    "thinkingChoices": [
+      "聞かれている青い玉と赤い玉だけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれている青い玉と赤い玉だけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "青い玉と赤い玉を聞かれています。緑の玉は使いません。",
+      "6こと11こを合わせます。"
+    ],
+    "explanation": "聞かれているのは青い玉と赤い玉です。6こと11こを足して、17こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-006-exam"
+  },
+  {
+    "id": "math-word-007",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な情報を選ぶ",
+    "thinkingType": "問題で聞かれていることに合う数だけを使う",
+    "examRelevance": "中学受験算数の長文問題で、必要条件を選ぶ力につながる",
+    "title": "必要な数を選ぼう",
+    "question": "クッキーが10こ、あめが3こ、チョコが9こあります。クッキーとあめは合わせて何こありますか？",
+    "choices": [
+      "13こ",
+      "19こ",
+      "22こ",
+      "12こ"
+    ],
+    "answer": "13こ",
+    "thinkingChoices": [
+      "聞かれているクッキーとあめだけを足した",
+      "条件を整理して考えた",
+      "順番に書き出した",
+      "まとまりを見つけた"
+    ],
+    "bestThinking": "聞かれているクッキーとあめだけを足した",
+    "hints": [
+      "何と何を聞かれているかな？",
+      "クッキーとあめを聞かれています。チョコは使いません。",
+      "10こと3こを合わせます。"
+    ],
+    "explanation": "聞かれているのはクッキーとあめです。10こと3こを足して、13こです。",
+    "childTip": "文章題は、聞かれているものに注目しよう。",
+    "parentTip": "余分な情報を使わず、必要条件を選ぶ練習です。",
+    "tags": [
+      "文章題",
+      "情報選択"
+    ],
+    "nextAbstractQuestionId": "math-word-007-exam"
+  },
+  {
+    "id": "read-pronoun-001",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "これ・それが指すものを読む",
+    "thinkingType": "指示語の前にある言葉を探す",
+    "examRelevance": "中学受験国語の指示語問題の入口",
+    "title": "何を指している？",
+    "question": "ゆいは新しい本を机に置きました。『これは、図書館で借りた本です。』 文の「これは」は何を指していますか？",
+    "choices": [
+      "新しい本",
+      "机",
+      "きのう",
+      "先生"
+    ],
+    "answer": "新しい本",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "指示語の前を見ます。",
+      "近くにあるものや、直前に出た言葉を探します。",
+      "「これは」は「新しい本」を指します。"
+    ],
+    "explanation": "文の前の部分を見ると、「新しい本」のことを話していると分かります。",
+    "childTip": "これ・それが出たら、前の文にもどろう。",
+    "parentTip": "指示語は本文根拠を探す基本です。",
+    "tags": [
+      "読解",
+      "指示語"
+    ],
+    "nextAbstractQuestionId": "read-pronoun-001-exam"
+  },
+  {
+    "id": "read-pronoun-002",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "これ・それが指すものを読む",
+    "thinkingType": "指示語の前にある言葉を探す",
+    "examRelevance": "中学受験国語の指示語問題の入口",
+    "title": "何を指している？",
+    "question": "そうたは赤いかさを持ちました。『それは、きのう買ったかさだよ。』 文の「それ」は何を指していますか？",
+    "choices": [
+      "赤いかさ",
+      "机",
+      "きのう",
+      "先生"
+    ],
+    "answer": "赤いかさ",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "指示語の前を見ます。",
+      "近くにあるものや、直前に出た言葉を探します。",
+      "「それ」は「赤いかさ」を指します。"
+    ],
+    "explanation": "文の前の部分を見ると、「赤いかさ」のことを話していると分かります。",
+    "childTip": "これ・それが出たら、前の文にもどろう。",
+    "parentTip": "指示語は本文根拠を探す基本です。",
+    "tags": [
+      "読解",
+      "指示語"
+    ],
+    "nextAbstractQuestionId": "read-pronoun-002-exam"
+  },
+  {
+    "id": "read-pronoun-003",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "これ・それが指すものを読む",
+    "thinkingType": "指示語の前にある言葉を探す",
+    "examRelevance": "中学受験国語の指示語問題の入口",
+    "title": "何を指している？",
+    "question": "みなは小さな箱を開けました。中には青いリボンがありました。『これをプレゼントに使おう。』 文の「これ」は何を指していますか？",
+    "choices": [
+      "青いリボン",
+      "机",
+      "きのう",
+      "先生"
+    ],
+    "answer": "青いリボン",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "指示語の前を見ます。",
+      "近くにあるものや、直前に出た言葉を探します。",
+      "「これ」は「青いリボン」を指します。"
+    ],
+    "explanation": "文の前の部分を見ると、「青いリボン」のことを話していると分かります。",
+    "childTip": "これ・それが出たら、前の文にもどろう。",
+    "parentTip": "指示語は本文根拠を探す基本です。",
+    "tags": [
+      "読解",
+      "指示語"
+    ],
+    "nextAbstractQuestionId": "read-pronoun-003-exam"
+  },
+  {
+    "id": "read-pronoun-004",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "これ・それが指すものを読む",
+    "thinkingType": "指示語の前にある言葉を探す",
+    "examRelevance": "中学受験国語の指示語問題の入口",
+    "title": "何を指している？",
+    "question": "先生はプリントを配りました。『これは家で読んできてください。』 文の「これは」は何を指していますか？",
+    "choices": [
+      "プリント",
+      "机",
+      "きのう",
+      "先生"
+    ],
+    "answer": "プリント",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "指示語の前を見ます。",
+      "近くにあるものや、直前に出た言葉を探します。",
+      "「これは」は「プリント」を指します。"
+    ],
+    "explanation": "文の前の部分を見ると、「プリント」のことを話していると分かります。",
+    "childTip": "これ・それが出たら、前の文にもどろう。",
+    "parentTip": "指示語は本文根拠を探す基本です。",
+    "tags": [
+      "読解",
+      "指示語"
+    ],
+    "nextAbstractQuestionId": "read-pronoun-004-exam"
+  },
+  {
+    "id": "read-pronoun-005",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "これ・それが指すものを読む",
+    "thinkingType": "指示語の前にある言葉を探す",
+    "examRelevance": "中学受験国語の指示語問題の入口",
+    "title": "何を指している？",
+    "question": "兄は時計を見せました。『それはおじいちゃんからもらった時計です。』 文の「それ」は何を指していますか？",
+    "choices": [
+      "時計",
+      "机",
+      "きのう",
+      "先生"
+    ],
+    "answer": "時計",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "指示語の前を見ます。",
+      "近くにあるものや、直前に出た言葉を探します。",
+      "「それ」は「時計」を指します。"
+    ],
+    "explanation": "文の前の部分を見ると、「時計」のことを話していると分かります。",
+    "childTip": "これ・それが出たら、前の文にもどろう。",
+    "parentTip": "指示語は本文根拠を探す基本です。",
+    "tags": [
+      "読解",
+      "指示語"
+    ],
+    "nextAbstractQuestionId": "read-pronoun-005-exam"
+  },
+  {
+    "id": "read-pronoun-006",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "これ・それが指すものを読む",
+    "thinkingType": "指示語の前にある言葉を探す",
+    "examRelevance": "中学受験国語の指示語問題の入口",
+    "title": "何を指している？",
+    "question": "りくはノートに丸をつけました。『ここをもう一度考えよう。』 文の「ここ」は何を指していますか？",
+    "choices": [
+      "丸をつけたところ",
+      "机",
+      "きのう",
+      "先生"
+    ],
+    "answer": "丸をつけたところ",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "指示語の前を見ます。",
+      "近くにあるものや、直前に出た言葉を探します。",
+      "「ここ」は「丸をつけたところ」を指します。"
+    ],
+    "explanation": "文の前の部分を見ると、「丸をつけたところ」のことを話していると分かります。",
+    "childTip": "これ・それが出たら、前の文にもどろう。",
+    "parentTip": "指示語は本文根拠を探す基本です。",
+    "tags": [
+      "読解",
+      "指示語"
+    ],
+    "nextAbstractQuestionId": "read-pronoun-006-exam"
+  },
+  {
+    "id": "read-connective-001",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "接続語",
+    "examUnit": "接続語・文脈",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "文と文のつながりを読む",
+    "thinkingType": "前後の文の関係から接続語を選ぶ",
+    "examRelevance": "中学受験国語の文脈把握、論理読解につながる",
+    "title": "つなぎ言葉",
+    "question": "雨がふってきました。（　　）、外で遊ぶのをやめました。かっこに入る言葉はどれがよいですか？",
+    "choices": [
+      "だから",
+      "しかし",
+      "そのあと",
+      "たとえば"
+    ],
+    "answer": "だから",
+    "thinkingChoices": [
+      "前後の文のつながりを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "前後の文のつながりを考えた",
+    "hints": [
+      "前の文と後ろの文をセットで読みます。",
+      "理由と結果か、反対か、順番かを考えます。",
+      "この文には「だから」が合います。"
+    ],
+    "explanation": "前後の文の関係を考えると、「だから」でつなぐのが自然です。",
+    "childTip": "つなぎ言葉は、前と後ろをいっしょに読もう。",
+    "parentTip": "論理読解の基礎です。文と文の関係を言語化します。",
+    "tags": [
+      "読解",
+      "接続語"
+    ],
+    "nextAbstractQuestionId": "read-connective-001-exam"
+  },
+  {
+    "id": "read-connective-002",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "接続語",
+    "examUnit": "接続語・文脈",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "文と文のつながりを読む",
+    "thinkingType": "前後の文の関係から接続語を選ぶ",
+    "examRelevance": "中学受験国語の文脈把握、論理読解につながる",
+    "title": "つなぎ言葉",
+    "question": "走って行きました。（　　）、電車には間に合いませんでした。かっこに入る言葉はどれがよいですか？",
+    "choices": [
+      "だから",
+      "しかし",
+      "そのあと",
+      "たとえば"
+    ],
+    "answer": "しかし",
+    "thinkingChoices": [
+      "前後の文のつながりを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "前後の文のつながりを考えた",
+    "hints": [
+      "前の文と後ろの文をセットで読みます。",
+      "理由と結果か、反対か、順番かを考えます。",
+      "この文には「しかし」が合います。"
+    ],
+    "explanation": "前後の文の関係を考えると、「しかし」でつなぐのが自然です。",
+    "childTip": "つなぎ言葉は、前と後ろをいっしょに読もう。",
+    "parentTip": "論理読解の基礎です。文と文の関係を言語化します。",
+    "tags": [
+      "読解",
+      "接続語"
+    ],
+    "nextAbstractQuestionId": "read-connective-002-exam"
+  },
+  {
+    "id": "read-connective-003",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "接続語",
+    "examUnit": "接続語・文脈",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "文と文のつながりを読む",
+    "thinkingType": "前後の文の関係から接続語を選ぶ",
+    "examRelevance": "中学受験国語の文脈把握、論理読解につながる",
+    "title": "つなぎ言葉",
+    "question": "手をよく洗いました。（　　）、ごはんを食べました。かっこに入る言葉はどれがよいですか？",
+    "choices": [
+      "だから",
+      "しかし",
+      "そのあと",
+      "たとえば"
+    ],
+    "answer": "そのあと",
+    "thinkingChoices": [
+      "前後の文のつながりを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "前後の文のつながりを考えた",
+    "hints": [
+      "前の文と後ろの文をセットで読みます。",
+      "理由と結果か、反対か、順番かを考えます。",
+      "この文には「そのあと」が合います。"
+    ],
+    "explanation": "前後の文の関係を考えると、「そのあと」でつなぐのが自然です。",
+    "childTip": "つなぎ言葉は、前と後ろをいっしょに読もう。",
+    "parentTip": "論理読解の基礎です。文と文の関係を言語化します。",
+    "tags": [
+      "読解",
+      "接続語"
+    ],
+    "nextAbstractQuestionId": "read-connective-003-exam"
+  },
+  {
+    "id": "read-connective-004",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "接続語",
+    "examUnit": "接続語・文脈",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "文と文のつながりを読む",
+    "thinkingType": "前後の文の関係から接続語を選ぶ",
+    "examRelevance": "中学受験国語の文脈把握、論理読解につながる",
+    "title": "つなぎ言葉",
+    "question": "朝から練習しました。（　　）、発表はうまくいきました。かっこに入る言葉はどれがよいですか？",
+    "choices": [
+      "だから",
+      "しかし",
+      "そのあと",
+      "たとえば"
+    ],
+    "answer": "だから",
+    "thinkingChoices": [
+      "前後の文のつながりを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "前後の文のつながりを考えた",
+    "hints": [
+      "前の文と後ろの文をセットで読みます。",
+      "理由と結果か、反対か、順番かを考えます。",
+      "この文には「だから」が合います。"
+    ],
+    "explanation": "前後の文の関係を考えると、「だから」でつなぐのが自然です。",
+    "childTip": "つなぎ言葉は、前と後ろをいっしょに読もう。",
+    "parentTip": "論理読解の基礎です。文と文の関係を言語化します。",
+    "tags": [
+      "読解",
+      "接続語"
+    ],
+    "nextAbstractQuestionId": "read-connective-004-exam"
+  },
+  {
+    "id": "read-connective-005",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "接続語",
+    "examUnit": "接続語・文脈",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "文と文のつながりを読む",
+    "thinkingType": "前後の文の関係から接続語を選ぶ",
+    "examRelevance": "中学受験国語の文脈把握、論理読解につながる",
+    "title": "つなぎ言葉",
+    "question": "寒い日でした。（　　）、半そでで出かけました。かっこに入る言葉はどれがよいですか？",
+    "choices": [
+      "だから",
+      "しかし",
+      "そのあと",
+      "たとえば"
+    ],
+    "answer": "しかし",
+    "thinkingChoices": [
+      "前後の文のつながりを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "前後の文のつながりを考えた",
+    "hints": [
+      "前の文と後ろの文をセットで読みます。",
+      "理由と結果か、反対か、順番かを考えます。",
+      "この文には「しかし」が合います。"
+    ],
+    "explanation": "前後の文の関係を考えると、「しかし」でつなぐのが自然です。",
+    "childTip": "つなぎ言葉は、前と後ろをいっしょに読もう。",
+    "parentTip": "論理読解の基礎です。文と文の関係を言語化します。",
+    "tags": [
+      "読解",
+      "接続語"
+    ],
+    "nextAbstractQuestionId": "read-connective-005-exam"
+  },
+  {
+    "id": "read-connective-006",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "接続語",
+    "examUnit": "接続語・文脈",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "文と文のつながりを読む",
+    "thinkingType": "前後の文の関係から接続語を選ぶ",
+    "examRelevance": "中学受験国語の文脈把握、論理読解につながる",
+    "title": "つなぎ言葉",
+    "question": "本を読みました。（　　）、感想をノートに書きました。かっこに入る言葉はどれがよいですか？",
+    "choices": [
+      "だから",
+      "しかし",
+      "そのあと",
+      "たとえば"
+    ],
+    "answer": "そのあと",
+    "thinkingChoices": [
+      "前後の文のつながりを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "前後の文のつながりを考えた",
+    "hints": [
+      "前の文と後ろの文をセットで読みます。",
+      "理由と結果か、反対か、順番かを考えます。",
+      "この文には「そのあと」が合います。"
+    ],
+    "explanation": "前後の文の関係を考えると、「そのあと」でつなぐのが自然です。",
+    "childTip": "つなぎ言葉は、前と後ろをいっしょに読もう。",
+    "parentTip": "論理読解の基礎です。文と文の関係を言語化します。",
+    "tags": [
+      "読解",
+      "接続語"
+    ],
+    "nextAbstractQuestionId": "read-connective-006-exam"
+  },
+  {
+    "id": "read-reason-001",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を本文から探す",
+    "thinkingType": "なぜに答える部分を本文から見つける",
+    "examRelevance": "中学受験国語の理由説明問題につながる",
+    "title": "なぜそうしたの？",
+    "question": "弟がまだ小さいので、はさみを高い棚にしまいました。なぜそうしましたか？",
+    "choices": [
+      "弟がまだ小さいから",
+      "急いでいたから",
+      "楽しかったから",
+      "名前を呼ばれたから"
+    ],
+    "answer": "弟がまだ小さいから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれたら理由を探します。",
+      "「ので」の近くを見ます。",
+      "理由は「弟がまだ小さいから」です。"
+    ],
+    "explanation": "本文では「弟がまだ小さいので、はさみを高い棚にしまいました」とあります。理由は「弟がまだ小さいから」です。",
+    "childTip": "理由は「から」「ので」の近くを探そう。",
+    "parentTip": "理由説明の根拠を本文から探す練習です。",
+    "tags": [
+      "読解",
+      "理由"
+    ],
+    "nextAbstractQuestionId": "read-reason-001-exam"
+  },
+  {
+    "id": "read-reason-002",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を本文から探す",
+    "thinkingType": "なぜに答える部分を本文から見つける",
+    "examRelevance": "中学受験国語の理由説明問題につながる",
+    "title": "なぜそうしたの？",
+    "question": "雨で道がぬれていたので、ゆっくり歩きました。なぜそうしましたか？",
+    "choices": [
+      "道がぬれていたから",
+      "急いでいたから",
+      "楽しかったから",
+      "名前を呼ばれたから"
+    ],
+    "answer": "道がぬれていたから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれたら理由を探します。",
+      "「ので」の近くを見ます。",
+      "理由は「道がぬれていたから」です。"
+    ],
+    "explanation": "本文では「雨で道がぬれていたので、ゆっくり歩きました」とあります。理由は「道がぬれていたから」です。",
+    "childTip": "理由は「から」「ので」の近くを探そう。",
+    "parentTip": "理由説明の根拠を本文から探す練習です。",
+    "tags": [
+      "読解",
+      "理由"
+    ],
+    "nextAbstractQuestionId": "read-reason-002-exam"
+  },
+  {
+    "id": "read-reason-003",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を本文から探す",
+    "thinkingType": "なぜに答える部分を本文から見つける",
+    "examRelevance": "中学受験国語の理由説明問題につながる",
+    "title": "なぜそうしたの？",
+    "question": "明日はテストなので、早めに宿題を終わらせました。なぜそうしましたか？",
+    "choices": [
+      "明日テストがあるから",
+      "急いでいたから",
+      "楽しかったから",
+      "名前を呼ばれたから"
+    ],
+    "answer": "明日テストがあるから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれたら理由を探します。",
+      "「ので」の近くを見ます。",
+      "理由は「明日テストがあるから」です。"
+    ],
+    "explanation": "本文では「明日はテストなので、早めに宿題を終わらせました」とあります。理由は「明日テストがあるから」です。",
+    "childTip": "理由は「から」「ので」の近くを探そう。",
+    "parentTip": "理由説明の根拠を本文から探す練習です。",
+    "tags": [
+      "読解",
+      "理由"
+    ],
+    "nextAbstractQuestionId": "read-reason-003-exam"
+  },
+  {
+    "id": "read-reason-004",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を本文から探す",
+    "thinkingType": "なぜに答える部分を本文から見つける",
+    "examRelevance": "中学受験国語の理由説明問題につながる",
+    "title": "なぜそうしたの？",
+    "question": "花がしおれそうだったので、水をあげました。なぜそうしましたか？",
+    "choices": [
+      "花がしおれそうだったから",
+      "急いでいたから",
+      "楽しかったから",
+      "名前を呼ばれたから"
+    ],
+    "answer": "花がしおれそうだったから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれたら理由を探します。",
+      "「ので」の近くを見ます。",
+      "理由は「花がしおれそうだったから」です。"
+    ],
+    "explanation": "本文では「花がしおれそうだったので、水をあげました」とあります。理由は「花がしおれそうだったから」です。",
+    "childTip": "理由は「から」「ので」の近くを探そう。",
+    "parentTip": "理由説明の根拠を本文から探す練習です。",
+    "tags": [
+      "読解",
+      "理由"
+    ],
+    "nextAbstractQuestionId": "read-reason-004-exam"
+  },
+  {
+    "id": "read-reason-005",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を本文から探す",
+    "thinkingType": "なぜに答える部分を本文から見つける",
+    "examRelevance": "中学受験国語の理由説明問題につながる",
+    "title": "なぜそうしたの？",
+    "question": "友だちが困っていたので、声をかけました。なぜそうしましたか？",
+    "choices": [
+      "友だちが困っていたから",
+      "急いでいたから",
+      "楽しかったから",
+      "名前を呼ばれたから"
+    ],
+    "answer": "友だちが困っていたから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれたら理由を探します。",
+      "「ので」の近くを見ます。",
+      "理由は「友だちが困っていたから」です。"
+    ],
+    "explanation": "本文では「友だちが困っていたので、声をかけました」とあります。理由は「友だちが困っていたから」です。",
+    "childTip": "理由は「から」「ので」の近くを探そう。",
+    "parentTip": "理由説明の根拠を本文から探す練習です。",
+    "tags": [
+      "読解",
+      "理由"
+    ],
+    "nextAbstractQuestionId": "read-reason-005-exam"
+  },
+  {
+    "id": "read-reason-006",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を本文から探す",
+    "thinkingType": "なぜに答える部分を本文から見つける",
+    "examRelevance": "中学受験国語の理由説明問題につながる",
+    "title": "なぜそうしたの？",
+    "question": "電気がついたままだったので、部屋にもどりました。なぜそうしましたか？",
+    "choices": [
+      "電気がついたままだったから",
+      "急いでいたから",
+      "楽しかったから",
+      "名前を呼ばれたから"
+    ],
+    "answer": "電気がついたままだったから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれたら理由を探します。",
+      "「ので」の近くを見ます。",
+      "理由は「電気がついたままだったから」です。"
+    ],
+    "explanation": "本文では「電気がついたままだったので、部屋にもどりました」とあります。理由は「電気がついたままだったから」です。",
+    "childTip": "理由は「から」「ので」の近くを探そう。",
+    "parentTip": "理由説明の根拠を本文から探す練習です。",
+    "tags": [
+      "読解",
+      "理由"
+    ],
+    "nextAbstractQuestionId": "read-reason-006-exam"
+  },
+  {
+    "id": "read-feeling-001",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "心情理解",
+    "examUnit": "心情理解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "行動から気持ちを考える",
+    "thinkingType": "登場人物の行動や言葉から気持ちを読む",
+    "examRelevance": "中学受験国語の物語文読解、心情把握につながる",
+    "title": "どんな気持ち？",
+    "question": "ゆうは、ほっと息をついて、にこっと笑いました。このときの気持ちに近いものはどれですか？",
+    "choices": [
+      "安心してうれしい",
+      "とてもねむい",
+      "強くおこっている",
+      "何も感じていない"
+    ],
+    "answer": "安心してうれしい",
+    "thinkingChoices": [
+      "行動や言葉から気持ちを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "行動や言葉から気持ちを考えた",
+    "hints": [
+      "行動や表情の言葉を見ます。",
+      "「ほっと息をついて、にこっと笑いました」から気持ちを考えます。",
+      "近い気持ちは「安心してうれしい」です。"
+    ],
+    "explanation": "「ほっと息をついて、にこっと笑いました」という行動から、安心してうれしい気持ちだと考えられます。",
+    "childTip": "気持ちは、行動や表情から考えよう。",
+    "parentTip": "心情語だけでなく、行動描写から読む練習です。",
+    "tags": [
+      "読解",
+      "心情"
+    ],
+    "nextAbstractQuestionId": "read-feeling-001-exam"
+  },
+  {
+    "id": "read-feeling-002",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "心情理解",
+    "examUnit": "心情理解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "行動から気持ちを考える",
+    "thinkingType": "登場人物の行動や言葉から気持ちを読む",
+    "examRelevance": "中学受験国語の物語文読解、心情把握につながる",
+    "title": "どんな気持ち？",
+    "question": "ゆうは、下を向いて、小さな声で『ごめんね』と言いました。このときの気持ちに近いものはどれですか？",
+    "choices": [
+      "申しわけない",
+      "とてもねむい",
+      "強くおこっている",
+      "何も感じていない"
+    ],
+    "answer": "申しわけない",
+    "thinkingChoices": [
+      "行動や言葉から気持ちを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "行動や言葉から気持ちを考えた",
+    "hints": [
+      "行動や表情の言葉を見ます。",
+      "「下を向いて、小さな声で『ごめんね』と言いました」から気持ちを考えます。",
+      "近い気持ちは「申しわけない」です。"
+    ],
+    "explanation": "「下を向いて、小さな声で『ごめんね』と言いました」という行動から、申しわけない気持ちだと考えられます。",
+    "childTip": "気持ちは、行動や表情から考えよう。",
+    "parentTip": "心情語だけでなく、行動描写から読む練習です。",
+    "tags": [
+      "読解",
+      "心情"
+    ],
+    "nextAbstractQuestionId": "read-feeling-002-exam"
+  },
+  {
+    "id": "read-feeling-003",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "心情理解",
+    "examUnit": "心情理解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "行動から気持ちを考える",
+    "thinkingType": "登場人物の行動や言葉から気持ちを読む",
+    "examRelevance": "中学受験国語の物語文読解、心情把握につながる",
+    "title": "どんな気持ち？",
+    "question": "ゆうは、両手を上げて『やった』と言いました。このときの気持ちに近いものはどれですか？",
+    "choices": [
+      "とてもうれしい",
+      "とてもねむい",
+      "強くおこっている",
+      "何も感じていない"
+    ],
+    "answer": "とてもうれしい",
+    "thinkingChoices": [
+      "行動や言葉から気持ちを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "行動や言葉から気持ちを考えた",
+    "hints": [
+      "行動や表情の言葉を見ます。",
+      "「両手を上げて『やった』と言いました」から気持ちを考えます。",
+      "近い気持ちは「とてもうれしい」です。"
+    ],
+    "explanation": "「両手を上げて『やった』と言いました」という行動から、とてもうれしい気持ちだと考えられます。",
+    "childTip": "気持ちは、行動や表情から考えよう。",
+    "parentTip": "心情語だけでなく、行動描写から読む練習です。",
+    "tags": [
+      "読解",
+      "心情"
+    ],
+    "nextAbstractQuestionId": "read-feeling-003-exam"
+  },
+  {
+    "id": "read-feeling-004",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "心情理解",
+    "examUnit": "心情理解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "行動から気持ちを考える",
+    "thinkingType": "登場人物の行動や言葉から気持ちを読む",
+    "examRelevance": "中学受験国語の物語文読解、心情把握につながる",
+    "title": "どんな気持ち？",
+    "question": "ゆうは、何度も時計を見て、そわそわしていました。このときの気持ちに近いものはどれですか？",
+    "choices": [
+      "落ち着かない",
+      "とてもねむい",
+      "強くおこっている",
+      "何も感じていない"
+    ],
+    "answer": "落ち着かない",
+    "thinkingChoices": [
+      "行動や言葉から気持ちを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "行動や言葉から気持ちを考えた",
+    "hints": [
+      "行動や表情の言葉を見ます。",
+      "「何度も時計を見て、そわそわしていました」から気持ちを考えます。",
+      "近い気持ちは「落ち着かない」です。"
+    ],
+    "explanation": "「何度も時計を見て、そわそわしていました」という行動から、落ち着かない気持ちだと考えられます。",
+    "childTip": "気持ちは、行動や表情から考えよう。",
+    "parentTip": "心情語だけでなく、行動描写から読む練習です。",
+    "tags": [
+      "読解",
+      "心情"
+    ],
+    "nextAbstractQuestionId": "read-feeling-004-exam"
+  },
+  {
+    "id": "read-feeling-005",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "心情理解",
+    "examUnit": "心情理解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "行動から気持ちを考える",
+    "thinkingType": "登場人物の行動や言葉から気持ちを読む",
+    "examRelevance": "中学受験国語の物語文読解、心情把握につながる",
+    "title": "どんな気持ち？",
+    "question": "ゆうは、友だちの絵を見て、目を大きく開きました。このときの気持ちに近いものはどれですか？",
+    "choices": [
+      "おどろいている",
+      "とてもねむい",
+      "強くおこっている",
+      "何も感じていない"
+    ],
+    "answer": "おどろいている",
+    "thinkingChoices": [
+      "行動や言葉から気持ちを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "行動や言葉から気持ちを考えた",
+    "hints": [
+      "行動や表情の言葉を見ます。",
+      "「友だちの絵を見て、目を大きく開きました」から気持ちを考えます。",
+      "近い気持ちは「おどろいている」です。"
+    ],
+    "explanation": "「友だちの絵を見て、目を大きく開きました」という行動から、おどろいている気持ちだと考えられます。",
+    "childTip": "気持ちは、行動や表情から考えよう。",
+    "parentTip": "心情語だけでなく、行動描写から読む練習です。",
+    "tags": [
+      "読解",
+      "心情"
+    ],
+    "nextAbstractQuestionId": "read-feeling-005-exam"
+  },
+  {
+    "id": "read-feeling-006",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "心情理解",
+    "examUnit": "心情理解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "行動から気持ちを考える",
+    "thinkingType": "登場人物の行動や言葉から気持ちを読む",
+    "examRelevance": "中学受験国語の物語文読解、心情把握につながる",
+    "title": "どんな気持ち？",
+    "question": "ゆうは、できたプリントを見て、胸をはりました。このときの気持ちに近いものはどれですか？",
+    "choices": [
+      "自信がある",
+      "とてもねむい",
+      "強くおこっている",
+      "何も感じていない"
+    ],
+    "answer": "自信がある",
+    "thinkingChoices": [
+      "行動や言葉から気持ちを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "行動や言葉から気持ちを考えた",
+    "hints": [
+      "行動や表情の言葉を見ます。",
+      "「できたプリントを見て、胸をはりました」から気持ちを考えます。",
+      "近い気持ちは「自信がある」です。"
+    ],
+    "explanation": "「できたプリントを見て、胸をはりました」という行動から、自信がある気持ちだと考えられます。",
+    "childTip": "気持ちは、行動や表情から考えよう。",
+    "parentTip": "心情語だけでなく、行動描写から読む練習です。",
+    "tags": [
+      "読解",
+      "心情"
+    ],
+    "nextAbstractQuestionId": "read-feeling-006-exam"
+  },
+  {
+    "id": "read-summary-001",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "一文要約",
+    "examUnit": "要約",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "大事なことを短くまとめる",
+    "thinkingType": "だれが何をしたかを中心にまとめる",
+    "examRelevance": "中学受験国語の要約、説明文読解につながる",
+    "title": "短くまとめよう",
+    "question": "次の文を一番よくまとめているものはどれですか？「あさ、りなは水とうをわすれたことに気づきました。出かける前に、急いで机の上から水とうを取りました。」",
+    "choices": [
+      "りなは出かける前に水とうを取った",
+      "机をそうじした",
+      "朝ごはんを食べた",
+      "何もしなかった"
+    ],
+    "answer": "りなは出かける前に水とうを取った",
+    "thinkingChoices": [
+      "だれが何をしたかを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "だれが何をしたかを考えた",
+    "hints": [
+      "中心になる人を見ます。",
+      "何をした話かを考えます。",
+      "まとめると「りなは出かける前に水とうを取った」です。"
+    ],
+    "explanation": "細かいところより、だれが何をしたかを見ると、「りなは出かける前に水とうを取った」が一番よいまとめです。",
+    "childTip": "まとめるときは、だれが何をしたかを考えよう。",
+    "parentTip": "要約の入口です。中心文を選ぶ力を育てます。",
+    "tags": [
+      "読解",
+      "要約"
+    ],
+    "nextAbstractQuestionId": "read-summary-001-exam"
+  },
+  {
+    "id": "read-summary-002",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "一文要約",
+    "examUnit": "要約",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "大事なことを短くまとめる",
+    "thinkingType": "だれが何をしたかを中心にまとめる",
+    "examRelevance": "中学受験国語の要約、説明文読解につながる",
+    "title": "短くまとめよう",
+    "question": "次の文を一番よくまとめているものはどれですか？「たくは公園で小さな花を見つけました。家に帰ると、その花の絵をノートにかきました。」",
+    "choices": [
+      "たくは見つけた花の絵をかいた",
+      "机をそうじした",
+      "朝ごはんを食べた",
+      "何もしなかった"
+    ],
+    "answer": "たくは見つけた花の絵をかいた",
+    "thinkingChoices": [
+      "だれが何をしたかを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "だれが何をしたかを考えた",
+    "hints": [
+      "中心になる人を見ます。",
+      "何をした話かを考えます。",
+      "まとめると「たくは見つけた花の絵をかいた」です。"
+    ],
+    "explanation": "細かいところより、だれが何をしたかを見ると、「たくは見つけた花の絵をかいた」が一番よいまとめです。",
+    "childTip": "まとめるときは、だれが何をしたかを考えよう。",
+    "parentTip": "要約の入口です。中心文を選ぶ力を育てます。",
+    "tags": [
+      "読解",
+      "要約"
+    ],
+    "nextAbstractQuestionId": "read-summary-002-exam"
+  },
+  {
+    "id": "read-summary-003",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "一文要約",
+    "examUnit": "要約",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "大事なことを短くまとめる",
+    "thinkingType": "だれが何をしたかを中心にまとめる",
+    "examRelevance": "中学受験国語の要約、説明文読解につながる",
+    "title": "短くまとめよう",
+    "question": "次の文を一番よくまとめているものはどれですか？「まいは図書館で本を借りました。家で読んで、おもしろかったところを家族に話しました。」",
+    "choices": [
+      "まいは借りた本の話をした",
+      "机をそうじした",
+      "朝ごはんを食べた",
+      "何もしなかった"
+    ],
+    "answer": "まいは借りた本の話をした",
+    "thinkingChoices": [
+      "だれが何をしたかを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "だれが何をしたかを考えた",
+    "hints": [
+      "中心になる人を見ます。",
+      "何をした話かを考えます。",
+      "まとめると「まいは借りた本の話をした」です。"
+    ],
+    "explanation": "細かいところより、だれが何をしたかを見ると、「まいは借りた本の話をした」が一番よいまとめです。",
+    "childTip": "まとめるときは、だれが何をしたかを考えよう。",
+    "parentTip": "要約の入口です。中心文を選ぶ力を育てます。",
+    "tags": [
+      "読解",
+      "要約"
+    ],
+    "nextAbstractQuestionId": "read-summary-003-exam"
+  },
+  {
+    "id": "read-summary-004",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "一文要約",
+    "examUnit": "要約",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "大事なことを短くまとめる",
+    "thinkingType": "だれが何をしたかを中心にまとめる",
+    "examRelevance": "中学受験国語の要約、説明文読解につながる",
+    "title": "短くまとめよう",
+    "question": "次の文を一番よくまとめているものはどれですか？「こうは朝早く起きました。学校に行く前に、昨日のプリントをもう一度見直しました。」",
+    "choices": [
+      "こうは学校前にプリントを見直した",
+      "机をそうじした",
+      "朝ごはんを食べた",
+      "何もしなかった"
+    ],
+    "answer": "こうは学校前にプリントを見直した",
+    "thinkingChoices": [
+      "だれが何をしたかを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "だれが何をしたかを考えた",
+    "hints": [
+      "中心になる人を見ます。",
+      "何をした話かを考えます。",
+      "まとめると「こうは学校前にプリントを見直した」です。"
+    ],
+    "explanation": "細かいところより、だれが何をしたかを見ると、「こうは学校前にプリントを見直した」が一番よいまとめです。",
+    "childTip": "まとめるときは、だれが何をしたかを考えよう。",
+    "parentTip": "要約の入口です。中心文を選ぶ力を育てます。",
+    "tags": [
+      "読解",
+      "要約"
+    ],
+    "nextAbstractQuestionId": "read-summary-004-exam"
+  },
+  {
+    "id": "read-summary-005",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "一文要約",
+    "examUnit": "要約",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "大事なことを短くまとめる",
+    "thinkingType": "だれが何をしたかを中心にまとめる",
+    "examRelevance": "中学受験国語の要約、説明文読解につながる",
+    "title": "短くまとめよう",
+    "question": "次の文を一番よくまとめているものはどれですか？「ななは友だちと約束をしました。忘れないように、カレンダーに丸をつけました。」",
+    "choices": [
+      "ななは約束を忘れないように丸をつけた",
+      "机をそうじした",
+      "朝ごはんを食べた",
+      "何もしなかった"
+    ],
+    "answer": "ななは約束を忘れないように丸をつけた",
+    "thinkingChoices": [
+      "だれが何をしたかを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "だれが何をしたかを考えた",
+    "hints": [
+      "中心になる人を見ます。",
+      "何をした話かを考えます。",
+      "まとめると「ななは約束を忘れないように丸をつけた」です。"
+    ],
+    "explanation": "細かいところより、だれが何をしたかを見ると、「ななは約束を忘れないように丸をつけた」が一番よいまとめです。",
+    "childTip": "まとめるときは、だれが何をしたかを考えよう。",
+    "parentTip": "要約の入口です。中心文を選ぶ力を育てます。",
+    "tags": [
+      "読解",
+      "要約"
+    ],
+    "nextAbstractQuestionId": "read-summary-005-exam"
+  },
+  {
+    "id": "read-summary-006",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "一文要約",
+    "examUnit": "要約",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "大事なことを短くまとめる",
+    "thinkingType": "だれが何をしたかを中心にまとめる",
+    "examRelevance": "中学受験国語の要約、説明文読解につながる",
+    "title": "短くまとめよう",
+    "question": "次の文を一番よくまとめているものはどれですか？「そらは植木ばちの土がかわいていることに気づきました。じょうろで水をあげました。」",
+    "choices": [
+      "そらは植木ばちに水をあげた",
+      "机をそうじした",
+      "朝ごはんを食べた",
+      "何もしなかった"
+    ],
+    "answer": "そらは植木ばちに水をあげた",
+    "thinkingChoices": [
+      "だれが何をしたかを考えた",
+      "本文の言葉を見つけた",
+      "前後の文を読んだ",
+      "登場人物の行動から考えた"
+    ],
+    "bestThinking": "だれが何をしたかを考えた",
+    "hints": [
+      "中心になる人を見ます。",
+      "何をした話かを考えます。",
+      "まとめると「そらは植木ばちに水をあげた」です。"
+    ],
+    "explanation": "細かいところより、だれが何をしたかを見ると、「そらは植木ばちに水をあげた」が一番よいまとめです。",
+    "childTip": "まとめるときは、だれが何をしたかを考えよう。",
+    "parentTip": "要約の入口です。中心文を選ぶ力を育てます。",
+    "tags": [
+      "読解",
+      "要約"
+    ],
+    "nextAbstractQuestionId": "read-summary-006-exam"
+  },
+  {
+    "id": "stadium-osaka-word-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な数を選ぼう",
+    "thinkingType": "聞かれている赤い玉と青い玉だけを足した",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "必要な数を選ぼう",
+    "question": "赤い玉が11こ、青い玉が4こ、白い玉が3こあります。赤い玉と青い玉は合わせて何こですか？",
+    "choices": [
+      "15こ",
+      "14こ",
+      "18こ",
+      "7こ"
+    ],
+    "answer": "15こ",
+    "thinkingChoices": [
+      "聞かれている赤い玉と青い玉だけを足した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "聞かれている赤い玉と青い玉だけを足した",
+    "hints": [
+      "何を聞かれているかな？",
+      "白い玉は使いません。",
+      "11こと4こを足します。"
+    ],
+    "explanation": "赤い玉11こと青い玉4こを足して、15こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-word-2-exam"
+  },
+  {
+    "id": "stadium-osaka-word-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な数を選ぼう",
+    "thinkingType": "聞かれている赤い玉と青い玉だけを足した",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "必要な数を選ぼう",
+    "question": "赤い玉が14こ、青い玉が5こ、白い玉が2こあります。赤い玉と青い玉は合わせて何こですか？",
+    "choices": [
+      "19こ",
+      "16こ",
+      "21こ",
+      "7こ"
+    ],
+    "answer": "19こ",
+    "thinkingChoices": [
+      "聞かれている赤い玉と青い玉だけを足した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "聞かれている赤い玉と青い玉だけを足した",
+    "hints": [
+      "何を聞かれているかな？",
+      "白い玉は使いません。",
+      "14こと5こを足します。"
+    ],
+    "explanation": "赤い玉14こと青い玉5こを足して、19こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-word-3-exam"
+  },
+  {
+    "id": "stadium-osaka-word-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な数を選ぼう",
+    "thinkingType": "聞かれている赤い玉と青い玉だけを足した",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "必要な数を選ぼう",
+    "question": "赤い玉が16こ、青い玉が7こ、白い玉が4こあります。赤い玉と青い玉は合わせて何こですか？",
+    "choices": [
+      "23こ",
+      "20こ",
+      "27こ",
+      "11こ"
+    ],
+    "answer": "23こ",
+    "thinkingChoices": [
+      "聞かれている赤い玉と青い玉だけを足した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "聞かれている赤い玉と青い玉だけを足した",
+    "hints": [
+      "何を聞かれているかな？",
+      "白い玉は使いません。",
+      "16こと7こを足します。"
+    ],
+    "explanation": "赤い玉16こと青い玉7こを足して、23こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-word-4-exam"
+  },
+  {
+    "id": "stadium-osaka-word-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "必要な数を選ぼう",
+    "thinkingType": "聞かれている赤い玉と青い玉だけを足した",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "必要な数を選ぼう",
+    "question": "赤い玉が18こ、青い玉が6こ、白い玉が5こあります。赤い玉と青い玉は合わせて何こですか？",
+    "choices": [
+      "24こ",
+      "23こ",
+      "29こ",
+      "11こ"
+    ],
+    "answer": "24こ",
+    "thinkingChoices": [
+      "聞かれている赤い玉と青い玉だけを足した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "聞かれている赤い玉と青い玉だけを足した",
+    "hints": [
+      "何を聞かれているかな？",
+      "白い玉は使いません。",
+      "18こと6こを足します。"
+    ],
+    "explanation": "赤い玉18こと青い玉6こを足して、24こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-word-5-exam"
+  },
+  {
+    "id": "stadium-osaka-logic-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を整理しよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件を整理しよう",
+    "question": "Aさんは左ではありません。Bさんは右です。 残った場所を考えると、まだ入っていないものはどこになりますか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "決まっている場所を書きます。",
+      "使えない場所を消します。",
+      "残った場所を選びます。"
+    ],
+    "explanation": "条件を順番に整理すると、残った場所が見えてきます。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-logic-6-exam"
+  },
+  {
+    "id": "stadium-osaka-logic-7",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を整理しよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件を整理しよう",
+    "question": "赤い箱は下ではありません。青い箱は上です。 残った場所を考えると、まだ入っていないものはどこになりますか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "決まっている場所を書きます。",
+      "使えない場所を消します。",
+      "残った場所を選びます。"
+    ],
+    "explanation": "条件を順番に整理すると、残った場所が見えてきます。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-logic-7-exam"
+  },
+  {
+    "id": "stadium-osaka-logic-8",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件を整理しよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件を整理しよう",
+    "question": "丸はまん中ではありません。三角は左です. 残った場所を考えると、まだ入っていないものはどこになりますか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "決まっている場所を書きます。",
+      "使えない場所を消します。",
+      "残った場所を選びます。"
+    ],
+    "explanation": "条件を順番に整理すると、残った場所が見えてきます。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-logic-8-exam"
+  },
+  {
+    "id": "stadium-osaka-reason-9",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を見つけよう",
+    "thinkingType": "「ので」の前を見て理由を探した",
+    "examRelevance": "理由説明の基礎として、中学受験の土台になります。",
+    "title": "理由を見つけよう",
+    "question": "手がよごれていたので、先に手を洗いました。なぜそうしましたか？",
+    "choices": [
+      "手がよごれていたから",
+      "楽しかったから",
+      "急いでいなかったから",
+      "音がしたから"
+    ],
+    "answer": "手がよごれていたから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれています。",
+      "「ので」の前を見ます。",
+      "理由になる言葉を選びます。"
+    ],
+    "explanation": "理由は「手がよごれていたから」です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "理由説明の基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "理由",
+      "読解",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-reason-9-exam"
+  },
+  {
+    "id": "stadium-osaka-reason-10",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を見つけよう",
+    "thinkingType": "「ので」の前を見て理由を探した",
+    "examRelevance": "理由説明の基礎として、中学受験の土台になります。",
+    "title": "理由を見つけよう",
+    "question": "本が高い棚にあったので、台を使いました。なぜそうしましたか？",
+    "choices": [
+      "本が高い棚にあったから",
+      "楽しかったから",
+      "急いでいなかったから",
+      "音がしたから"
+    ],
+    "answer": "本が高い棚にあったから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれています。",
+      "「ので」の前を見ます。",
+      "理由になる言葉を選びます。"
+    ],
+    "explanation": "理由は「本が高い棚にあったから」です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "理由説明の基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "理由",
+      "読解",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-reason-10-exam"
+  },
+  {
+    "id": "stadium-osaka-reason-11",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を見つけよう",
+    "thinkingType": "「ので」の前を見て理由を探した",
+    "examRelevance": "理由説明の基礎として、中学受験の土台になります。",
+    "title": "理由を見つけよう",
+    "question": "道が暗くなってきたので、早めに帰りました。なぜそうしましたか？",
+    "choices": [
+      "道が暗くなってきたから",
+      "楽しかったから",
+      "急いでいなかったから",
+      "音がしたから"
+    ],
+    "answer": "道が暗くなってきたから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "なぜと聞かれています。",
+      "「ので」の前を見ます。",
+      "理由になる言葉を選びます。"
+    ],
+    "explanation": "理由は「道が暗くなってきたから」です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "理由説明の基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "理由",
+      "読解",
+      "大坂城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-osaka-reason-11-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "4こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "赤、青、黄、白の順にくり返します。26番目はどれですか？",
+    "choices": [
+      "赤",
+      "青",
+      "黄",
+      "白"
+    ],
+    "answer": "青",
+    "thinkingChoices": [
+      "4こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "4こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "4こで1セットです。",
+      "26番目がセットの何番目か考えます。"
+    ],
+    "explanation": "4こで1セットです。26番目は「青」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-1-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "3こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "丸、三角、四角の順にくり返します。27番目はどれですか？",
+    "choices": [
+      "丸",
+      "三角",
+      "四角",
+      "わからない"
+    ],
+    "answer": "四角",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "3こで1セットです。",
+      "27番目がセットの何番目か考えます。"
+    ],
+    "explanation": "3こで1セットです。27番目は「四角」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-2-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "3こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "A、B、Cの順にくり返します。28番目はどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "わからない"
+    ],
+    "answer": "A",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "3こで1セットです。",
+      "28番目がセットの何番目か考えます。"
+    ],
+    "explanation": "3こで1セットです。28番目は「A」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-3-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "4こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "1、2、3、4の順にくり返します。29番目はどれですか？",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1",
+    "thinkingChoices": [
+      "4こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "4こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "4こで1セットです。",
+      "29番目がセットの何番目か考えます。"
+    ],
+    "explanation": "4こで1セットです。29番目は「1」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-4-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "4こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "赤、青、黄、白の順にくり返します。30番目はどれですか？",
+    "choices": [
+      "赤",
+      "青",
+      "黄",
+      "白"
+    ],
+    "answer": "青",
+    "thinkingChoices": [
+      "4こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "4こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "4こで1セットです。",
+      "30番目がセットの何番目か考えます。"
+    ],
+    "explanation": "4こで1セットです。30番目は「青」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-5-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "3こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "丸、三角、四角の順にくり返します。31番目はどれですか？",
+    "choices": [
+      "丸",
+      "三角",
+      "四角",
+      "わからない"
+    ],
+    "answer": "丸",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "3こで1セットです。",
+      "31番目がセットの何番目か考えます。"
+    ],
+    "explanation": "3こで1セットです。31番目は「丸」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-6-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-7",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "3こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "A、B、Cの順にくり返します。32番目はどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "わからない"
+    ],
+    "answer": "B",
+    "thinkingChoices": [
+      "3こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "3こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "3こで1セットです。",
+      "32番目がセットの何番目か考えます。"
+    ],
+    "explanation": "3こで1セットです。32番目は「B」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-7-exam"
+  },
+  {
+    "id": "stadium-azuchi-period-8",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "規則性",
+    "examUnit": "周期算",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "くり返しを見つけよう",
+    "thinkingType": "4こで1セットだと考えた",
+    "examRelevance": "周期算の基礎として、中学受験の土台になります。",
+    "title": "くり返しを見つけよう",
+    "question": "1、2、3、4の順にくり返します。33番目はどれですか？",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1",
+    "thinkingChoices": [
+      "4こで1セットだと考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "4こで1セットだと考えた",
+    "hints": [
+      "1セットを探します。",
+      "4こで1セットです。",
+      "33番目がセットの何番目か考えます。"
+    ],
+    "explanation": "4こで1セットです。33番目は「1」です。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "周期算の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "規則性",
+      "周期算",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-period-8-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは4こ、Bは7こ、Cは6こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "B",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "4、7、6を比べます。",
+      "7こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は7なので、答えはBです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-1-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは8こ、Bは5こ、Cは9こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "C",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "8、5、9を比べます。",
+      "9こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は9なので、答えはCです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-2-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは3こ、Bは9こ、Cは5こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "B",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "3、9、5を比べます。",
+      "9こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は9なので、答えはBです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-3-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは6こ、Bは10こ、Cは7こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "B",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "6、10、7を比べます。",
+      "10こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は10なので、答えはBです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-4-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは11こ、Bは8こ、Cは9こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "A",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "11、8、9を比べます。",
+      "11こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は11なので、答えはAです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-5-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは5こ、Bは12こ、Cは6こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "B",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "5、12、6を比べます。",
+      "12こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は12なので、答えはBです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-6-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-7",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは9こ、Bは4こ、Cは10こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "C",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "9、4、10を比べます。",
+      "10こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は10なので、答えはCです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-7-exam"
+  },
+  {
+    "id": "stadium-azuchi-table-8",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "表の読み取り",
+    "examUnit": "資料の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "表から比べよう",
+    "thinkingType": "名前と数を合わせて、大きい数を比べた",
+    "examRelevance": "資料の読み取りの基礎として、中学受験の土台になります。",
+    "title": "表から比べよう",
+    "question": "Aは7こ、Bは11こ、Cは8こです。一番多いのはどれですか？",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "同じ"
+    ],
+    "answer": "B",
+    "thinkingChoices": [
+      "名前と数を合わせて、大きい数を比べた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "名前と数を合わせて、大きい数を比べた",
+    "hints": [
+      "名前と数を対応させます。",
+      "7、11、8を比べます。",
+      "11こが一番多いです。"
+    ],
+    "explanation": "一番大きい数は11なので、答えはBです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "資料の読み取りの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "表",
+      "資料",
+      "安土城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-azuchi-table-8-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは右です。Aは左ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-1-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは左です。Aは右ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-2-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは右です。Aは左ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-3-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは左です。Aは右ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-4-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは右です。Aは左ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-5-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは左です。Aは右ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-6-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-7",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは右です。Aは左ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-7-exam"
+  },
+  {
+    "id": "stadium-sendai-logic-8",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "条件整理",
+    "examUnit": "条件整理・推理",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "条件から決めよう",
+    "thinkingType": "決まっている条件から順番に入れた",
+    "examRelevance": "条件整理・推理の基礎として、中学受験の土台になります。",
+    "title": "条件から決めよう",
+    "question": "A、B、Cが左・まん中・右に入ります。Bは左です。Aは右ではありません。Cはどこですか？",
+    "choices": [
+      "左",
+      "まん中",
+      "右",
+      "まだ決められない"
+    ],
+    "answer": "まん中",
+    "thinkingChoices": [
+      "決まっている条件から順番に入れた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "決まっている条件から順番に入れた",
+    "hints": [
+      "まずBを入れます。",
+      "Aが入れない場所を消します。",
+      "残った場所がCです。"
+    ],
+    "explanation": "条件を順に入れると、Cはまん中になります。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "条件整理・推理の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "条件整理",
+      "推理",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-logic-8-exam"
+  },
+  {
+    "id": "stadium-sendai-word-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが13まいあります。5まい使い、あとで4まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "8まい",
+      "18まい",
+      "12まい",
+      "4まい"
+    ],
+    "answer": "8まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "13から5を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、13-5で8まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-1-exam"
+  },
+  {
+    "id": "stadium-sendai-word-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが15まいあります。6まい使い、あとで2まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "9まい",
+      "21まい",
+      "11まい",
+      "2まい"
+    ],
+    "answer": "9まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "15から6を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、15-6で9まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-2-exam"
+  },
+  {
+    "id": "stadium-sendai-word-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが12まいあります。8まい使い、あとで3まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "4まい",
+      "20まい",
+      "7まい",
+      "3まい"
+    ],
+    "answer": "4まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "12から8を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、12-8で4まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-3-exam"
+  },
+  {
+    "id": "stadium-sendai-word-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが17まいあります。7まい使い、あとで5まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "10まい",
+      "24まい",
+      "15まい",
+      "5まい"
+    ],
+    "answer": "10まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "17から7を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、17-7で10まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-4-exam"
+  },
+  {
+    "id": "stadium-sendai-word-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが20まいあります。9まい使い、あとで4まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "11まい",
+      "29まい",
+      "15まい",
+      "4まい"
+    ],
+    "answer": "11まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "20から9を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、20-9で11まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-5-exam"
+  },
+  {
+    "id": "stadium-sendai-word-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが14まいあります。3まい使い、あとで6まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "11まい",
+      "17まい",
+      "17まい",
+      "6まい"
+    ],
+    "answer": "11まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "14から3を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、14-3で11まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-6-exam"
+  },
+  {
+    "id": "stadium-sendai-word-7",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが16まいあります。4まい使い、あとで7まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "12まい",
+      "20まい",
+      "19まい",
+      "7まい"
+    ],
+    "answer": "12まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "16から4を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、16-4で12まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-7-exam"
+  },
+  {
+    "id": "stadium-sendai-word-8",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "文章題の読み取り",
+    "examUnit": "文章題・情報選択",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "使う数を選ぼう",
+    "thinkingType": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "examRelevance": "文章題・情報選択の基礎として、中学受験の土台になります。",
+    "title": "使う数を選ぼう",
+    "question": "シールが19まいあります。8まい使い、あとで2まいもらいました。まず使ったあと、残りは何まいですか？",
+    "choices": [
+      "11まい",
+      "27まい",
+      "13まい",
+      "2まい"
+    ],
+    "answer": "11まい",
+    "thinkingChoices": [
+      "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「まず使ったあと」と聞かれているので、もらった数は使わなかった",
+    "hints": [
+      "何を聞かれているかな？",
+      "あとでもらった数は、今回は使いません。",
+      "19から8を引きます。"
+    ],
+    "explanation": "まず使ったあとの残りなので、19-8で11まいです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "文章題・情報選択の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "文章題",
+      "情報選択",
+      "仙台城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-sendai-word-8-exam"
+  },
+  {
+    "id": "stadium-ueda-list-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が2しゅるい、下が3しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "5通り",
+      "6通り",
+      "2通り",
+      "3通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は3通りあります。",
+      "2つそれぞれに3通りです。"
+    ],
+    "explanation": "全部で6通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-1-exam"
+  },
+  {
+    "id": "stadium-ueda-list-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が3しゅるい、下が4しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "7通り",
+      "12通り",
+      "3通り",
+      "4通り"
+    ],
+    "answer": "12通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は4通りあります。",
+      "3つそれぞれに4通りです。"
+    ],
+    "explanation": "全部で12通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-2-exam"
+  },
+  {
+    "id": "stadium-ueda-list-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が4しゅるい、下が2しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "6通り",
+      "8通り",
+      "4通り",
+      "2通り"
+    ],
+    "answer": "8通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は2通りあります。",
+      "4つそれぞれに2通りです。"
+    ],
+    "explanation": "全部で8通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-3-exam"
+  },
+  {
+    "id": "stadium-ueda-list-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が2しゅるい、下が3しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "5通り",
+      "6通り",
+      "2通り",
+      "3通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は3通りあります。",
+      "2つそれぞれに3通りです。"
+    ],
+    "explanation": "全部で6通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-4-exam"
+  },
+  {
+    "id": "stadium-ueda-list-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が3しゅるい、下が4しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "7通り",
+      "12通り",
+      "3通り",
+      "4通り"
+    ],
+    "answer": "12通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は4通りあります。",
+      "3つそれぞれに4通りです。"
+    ],
+    "explanation": "全部で12通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-5-exam"
+  },
+  {
+    "id": "stadium-ueda-list-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が4しゅるい、下が2しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "6通り",
+      "8通り",
+      "4通り",
+      "2通り"
+    ],
+    "answer": "8通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は2通りあります。",
+      "4つそれぞれに2通りです。"
+    ],
+    "explanation": "全部で8通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-6-exam"
+  },
+  {
+    "id": "stadium-ueda-list-7",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "書き出し",
+    "examUnit": "場合の数・組み合わせ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "組み合わせを数えよう",
+    "thinkingType": "片方を固定して、もれなく書き出した",
+    "examRelevance": "場合の数・組み合わせの基礎として、中学受験の土台になります。",
+    "title": "組み合わせを数えよう",
+    "question": "上が2しゅるい、下が3しゅるいあります。上下の組み合わせは何通りですか？",
+    "choices": [
+      "5通り",
+      "6通り",
+      "2通り",
+      "3通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "片方を固定して、もれなく書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "片方を固定して、もれなく書き出した",
+    "hints": [
+      "上を1つ決めます。",
+      "下は3通りあります。",
+      "2つそれぞれに3通りです。"
+    ],
+    "explanation": "全部で6通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数・組み合わせの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "書き出し",
+      "組み合わせ",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-list-7-exam"
+  },
+  {
+    "id": "stadium-ueda-count-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "ならべ方を考えよう",
+    "thinkingType": "先頭を決めて順番に書き出した",
+    "examRelevance": "場合の数の基礎として、中学受験の土台になります。",
+    "title": "ならべ方を考えよう",
+    "question": "3枚のカードを1列にならべます。ならべ方は何通りありますか？",
+    "choices": [
+      "2通り",
+      "6通り",
+      "12通り",
+      "24通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "先頭を決めて順番に書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "先頭を決めて順番に書き出した",
+    "hints": [
+      "先頭を1つ決めます。",
+      "残りのならべ方を考えます。",
+      "全部で6通りです。"
+    ],
+    "explanation": "3枚のならべ方は6通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "場合の数",
+      "書き出し",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-count-1-exam"
+  },
+  {
+    "id": "stadium-ueda-count-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "ならべ方を考えよう",
+    "thinkingType": "先頭を決めて順番に書き出した",
+    "examRelevance": "場合の数の基礎として、中学受験の土台になります。",
+    "title": "ならべ方を考えよう",
+    "question": "4枚のカードを1列にならべます。ならべ方は何通りありますか？",
+    "choices": [
+      "2通り",
+      "6通り",
+      "12通り",
+      "24通り"
+    ],
+    "answer": "24通り",
+    "thinkingChoices": [
+      "先頭を決めて順番に書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "先頭を決めて順番に書き出した",
+    "hints": [
+      "先頭を1つ決めます。",
+      "残りのならべ方を考えます。",
+      "全部で24通りです。"
+    ],
+    "explanation": "4枚のならべ方は24通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "場合の数",
+      "書き出し",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-count-2-exam"
+  },
+  {
+    "id": "stadium-ueda-count-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "ならべ方を考えよう",
+    "thinkingType": "先頭を決めて順番に書き出した",
+    "examRelevance": "場合の数の基礎として、中学受験の土台になります。",
+    "title": "ならべ方を考えよう",
+    "question": "3枚のカードを1列にならべます。ならべ方は何通りありますか？",
+    "choices": [
+      "2通り",
+      "6通り",
+      "12通り",
+      "24通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "先頭を決めて順番に書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "先頭を決めて順番に書き出した",
+    "hints": [
+      "先頭を1つ決めます。",
+      "残りのならべ方を考えます。",
+      "全部で6通りです。"
+    ],
+    "explanation": "3枚のならべ方は6通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "場合の数",
+      "書き出し",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-count-3-exam"
+  },
+  {
+    "id": "stadium-ueda-count-4",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "ならべ方を考えよう",
+    "thinkingType": "先頭を決めて順番に書き出した",
+    "examRelevance": "場合の数の基礎として、中学受験の土台になります。",
+    "title": "ならべ方を考えよう",
+    "question": "4枚のカードを1列にならべます。ならべ方は何通りありますか？",
+    "choices": [
+      "2通り",
+      "6通り",
+      "12通り",
+      "24通り"
+    ],
+    "answer": "24通り",
+    "thinkingChoices": [
+      "先頭を決めて順番に書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "先頭を決めて順番に書き出した",
+    "hints": [
+      "先頭を1つ決めます。",
+      "残りのならべ方を考えます。",
+      "全部で24通りです。"
+    ],
+    "explanation": "4枚のならべ方は24通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "場合の数",
+      "書き出し",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-count-4-exam"
+  },
+  {
+    "id": "stadium-ueda-count-5",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "ならべ方を考えよう",
+    "thinkingType": "先頭を決めて順番に書き出した",
+    "examRelevance": "場合の数の基礎として、中学受験の土台になります。",
+    "title": "ならべ方を考えよう",
+    "question": "3枚のカードを1列にならべます。ならべ方は何通りありますか？",
+    "choices": [
+      "2通り",
+      "6通り",
+      "12通り",
+      "24通り"
+    ],
+    "answer": "6通り",
+    "thinkingChoices": [
+      "先頭を決めて順番に書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "先頭を決めて順番に書き出した",
+    "hints": [
+      "先頭を1つ決めます。",
+      "残りのならべ方を考えます。",
+      "全部で6通りです。"
+    ],
+    "explanation": "3枚のならべ方は6通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "場合の数",
+      "書き出し",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-count-5-exam"
+  },
+  {
+    "id": "stadium-ueda-count-6",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "場合の数",
+    "examUnit": "場合の数",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "ならべ方を考えよう",
+    "thinkingType": "先頭を決めて順番に書き出した",
+    "examRelevance": "場合の数の基礎として、中学受験の土台になります。",
+    "title": "ならべ方を考えよう",
+    "question": "4枚のカードを1列にならべます。ならべ方は何通りありますか？",
+    "choices": [
+      "2通り",
+      "6通り",
+      "12通り",
+      "24通り"
+    ],
+    "answer": "24通り",
+    "thinkingChoices": [
+      "先頭を決めて順番に書き出した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "先頭を決めて順番に書き出した",
+    "hints": [
+      "先頭を1つ決めます。",
+      "残りのならべ方を考えます。",
+      "全部で24通りです。"
+    ],
+    "explanation": "4枚のならべ方は24通りです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "場合の数の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "場合の数",
+      "書き出し",
+      "上田城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-ueda-count-6-exam"
+  },
+  {
+    "id": "stadium-kasugayama-pronoun-1",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "指すものを探そう",
+    "thinkingType": "指示語の前に出てきた言葉を見つけた",
+    "examRelevance": "指示語の読み取りの基礎として、中学受験の土台になります。",
+    "title": "指すものを探そう",
+    "question": "まなは白い紙を出しました。「これに名前を書きます。」文の「これ」は何を指しますか？",
+    "choices": [
+      "白い紙",
+      "名前",
+      "まな",
+      "机"
+    ],
+    "answer": "白い紙",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "前の文を見ます。",
+      "出したものを探します。",
+      "白い紙を指しています。"
+    ],
+    "explanation": "「白い紙を出しました」とあるので、指しているのは白い紙です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "指示語の読み取りの基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "指示語",
+      "読解",
+      "春日山城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kasugayama-pronoun-1-exam"
+  },
+  {
+    "id": "stadium-kasugayama-pronoun-2",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "指すものを探そう",
+    "thinkingType": "指示語の前に出てきた言葉を見つけた",
+    "examRelevance": "指示語の読み取りの基礎として、中学受験の土台になります。",
+    "title": "指すものを探そう",
+    "question": "まなは白い紙を出しました。「それに名前を書きます。」文の「それ」は何を指しますか？",
+    "choices": [
+      "白い紙",
+      "名前",
+      "まな",
+      "机"
+    ],
+    "answer": "白い紙",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "前の文を見ます。",
+      "出したものを探します。",
+      "白い紙を指しています。"
+    ],
+    "explanation": "「白い紙を出しました」とあるので、指しているのは白い紙です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "指示語の読み取りの基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "指示語",
+      "読解",
+      "春日山城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kasugayama-pronoun-2-exam"
+  },
+  {
+    "id": "stadium-kasugayama-pronoun-3",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "指示語",
+    "examUnit": "指示語の読み取り",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "指すものを探そう",
+    "thinkingType": "指示語の前に出てきた言葉を見つけた",
+    "examRelevance": "指示語の読み取りの基礎として、中学受験の土台になります。",
+    "title": "指すものを探そう",
+    "question": "まなは白い紙を出しました。「ここに名前を書きます。」文の「ここ」は何を指しますか？",
+    "choices": [
+      "白い紙",
+      "名前",
+      "まな",
+      "机"
+    ],
+    "answer": "白い紙",
+    "thinkingChoices": [
+      "指示語の前に出てきた言葉を見つけた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "指示語の前に出てきた言葉を見つけた",
+    "hints": [
+      "前の文を見ます。",
+      "出したものを探します。",
+      "白い紙を指しています。"
+    ],
+    "explanation": "「白い紙を出しました」とあるので、指しているのは白い紙です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "指示語の読み取りの基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "指示語",
+      "読解",
+      "春日山城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kasugayama-pronoun-3-exam"
+  },
+  {
+    "id": "stadium-kasugayama-reason-1",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を探そう",
+    "thinkingType": "「ので」の前を見て理由を探した",
+    "examRelevance": "理由説明の基礎として、中学受験の土台になります。",
+    "title": "理由を探そう",
+    "question": "雨が強くなったので、外に出るのをやめました。なぜそうしましたか？",
+    "choices": [
+      "雨が強くなったから",
+      "うれしかったから",
+      "何もなかったから",
+      "同じだったから"
+    ],
+    "answer": "雨が強くなったから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "理由の言葉を探します。",
+      "「ので」の前を見ます。",
+      "そこが答えです。"
+    ],
+    "explanation": "理由は「雨が強くなったから」です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "理由説明の基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "理由",
+      "読解",
+      "春日山城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kasugayama-reason-1-exam"
+  },
+  {
+    "id": "stadium-kasugayama-reason-2",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を探そう",
+    "thinkingType": "「ので」の前を見て理由を探した",
+    "examRelevance": "理由説明の基礎として、中学受験の土台になります。",
+    "title": "理由を探そう",
+    "question": "友だちが待っていたので、急いで行きました。なぜそうしましたか？",
+    "choices": [
+      "友だちが待っていたから",
+      "うれしかったから",
+      "何もなかったから",
+      "同じだったから"
+    ],
+    "answer": "友だちが待っていたから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "理由の言葉を探します。",
+      "「ので」の前を見ます。",
+      "そこが答えです。"
+    ],
+    "explanation": "理由は「友だちが待っていたから」です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "理由説明の基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "理由",
+      "読解",
+      "春日山城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kasugayama-reason-2-exam"
+  },
+  {
+    "id": "stadium-kasugayama-reason-3",
+    "grade": 2,
+    "subject": "reading",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "読解",
+    "unit": "理由探し",
+    "examUnit": "理由説明",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "理由を探そう",
+    "thinkingType": "「ので」の前を見て理由を探した",
+    "examRelevance": "理由説明の基礎として、中学受験の土台になります。",
+    "title": "理由を探そう",
+    "question": "字が小さかったので、近くで読みました。なぜそうしましたか？",
+    "choices": [
+      "字が小さかったから",
+      "うれしかったから",
+      "何もなかったから",
+      "同じだったから"
+    ],
+    "answer": "字が小さかったから",
+    "thinkingChoices": [
+      "「ので」の前を見て理由を探した",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "「ので」の前を見て理由を探した",
+    "hints": [
+      "理由の言葉を探します。",
+      "「ので」の前を見ます。",
+      "そこが答えです。"
+    ],
+    "explanation": "理由は「字が小さかったから」です。",
+    "childTip": "本文の言葉にもどって考えよう。",
+    "parentTip": "理由説明の基礎です。本文のどこを見たかを聞いてあげてください。",
+    "tags": [
+      "理由",
+      "読解",
+      "春日山城球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kasugayama-reason-3-exam"
+  },
+  {
+    "id": "stadium-kofu-geometry-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を数えよう",
+    "thinkingType": "1行に6こで、それが3行あると考えた",
+    "examRelevance": "平面図形・数え上げの基礎として、中学受験の土台になります。",
+    "title": "マス目を数えよう",
+    "question": "たて3マス、横6マスの長方形があります。マスは全部でいくつですか？",
+    "choices": [
+      "9こ",
+      "18こ",
+      "17こ",
+      "20こ"
+    ],
+    "answer": "18こ",
+    "thinkingChoices": [
+      "1行に6こで、それが3行あると考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "1行に6こで、それが3行あると考えた",
+    "hints": [
+      "1行の数を見ます。",
+      "6こが3行あります。",
+      "18こです。"
+    ],
+    "explanation": "全部で18こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "平面図形・数え上げの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "図形",
+      "マス目",
+      "甲府館球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kofu-geometry-1-exam"
+  },
+  {
+    "id": "stadium-kofu-geometry-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を数えよう",
+    "thinkingType": "1行に5こで、それが4行あると考えた",
+    "examRelevance": "平面図形・数え上げの基礎として、中学受験の土台になります。",
+    "title": "マス目を数えよう",
+    "question": "たて4マス、横5マスの長方形があります。マスは全部でいくつですか？",
+    "choices": [
+      "9こ",
+      "20こ",
+      "19こ",
+      "22こ"
+    ],
+    "answer": "20こ",
+    "thinkingChoices": [
+      "1行に5こで、それが4行あると考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "1行に5こで、それが4行あると考えた",
+    "hints": [
+      "1行の数を見ます。",
+      "5こが4行あります。",
+      "20こです。"
+    ],
+    "explanation": "全部で20こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "平面図形・数え上げの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "図形",
+      "マス目",
+      "甲府館球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kofu-geometry-2-exam"
+  },
+  {
+    "id": "stadium-kofu-geometry-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "図形感覚",
+    "examUnit": "平面図形・数え上げ",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "マス目を数えよう",
+    "thinkingType": "1行に5こで、それが5行あると考えた",
+    "examRelevance": "平面図形・数え上げの基礎として、中学受験の土台になります。",
+    "title": "マス目を数えよう",
+    "question": "たて5マス、横5マスの長方形があります。マスは全部でいくつですか？",
+    "choices": [
+      "10こ",
+      "25こ",
+      "24こ",
+      "27こ"
+    ],
+    "answer": "25こ",
+    "thinkingChoices": [
+      "1行に5こで、それが5行あると考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "1行に5こで、それが5行あると考えた",
+    "hints": [
+      "1行の数を見ます。",
+      "5こが5行あります。",
+      "25こです。"
+    ],
+    "explanation": "全部で25こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "平面図形・数え上げの入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "図形",
+      "マス目",
+      "甲府館球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kofu-geometry-3-exam"
+  },
+  {
+    "id": "stadium-kofu-decompose-1",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "出塁ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "残りを考えよう",
+    "thinkingType": "18から7を引いて考えた",
+    "examRelevance": "数の性質・和の分解の基礎として、中学受験の土台になります。",
+    "title": "残りを考えよう",
+    "question": "全部で18こあります。7こ使うと、残りは何こですか？",
+    "choices": [
+      "11こ",
+      "25こ",
+      "7こ",
+      "12こ"
+    ],
+    "answer": "11こ",
+    "thinkingChoices": [
+      "18から7を引いて考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "18から7を引いて考えた",
+    "hints": [
+      "全部の数を見ます。",
+      "使った数を引きます。",
+      "18-7です。"
+    ],
+    "explanation": "残りは11こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "数の性質・和の分解の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "数の分解",
+      "甲府館球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kofu-decompose-1-exam"
+  },
+  {
+    "id": "stadium-kofu-decompose-2",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "作戦ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "残りを考えよう",
+    "thinkingType": "22から9を引いて考えた",
+    "examRelevance": "数の性質・和の分解の基礎として、中学受験の土台になります。",
+    "title": "残りを考えよう",
+    "question": "全部で22こあります。9こ使うと、残りは何こですか？",
+    "choices": [
+      "13こ",
+      "31こ",
+      "9こ",
+      "14こ"
+    ],
+    "answer": "13こ",
+    "thinkingChoices": [
+      "22から9を引いて考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "22から9を引いて考えた",
+    "hints": [
+      "全部の数を見ます。",
+      "使った数を引きます。",
+      "22-9です。"
+    ],
+    "explanation": "残りは13こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "数の性質・和の分解の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "数の分解",
+      "甲府館球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kofu-decompose-2-exam"
+  },
+  {
+    "id": "stadium-kofu-decompose-3",
+    "grade": 2,
+    "subject": "math",
+    "displayTheme": "baseball_sengoku",
+    "missionType": "決勝ミッション",
+    "category": "算数",
+    "unit": "数の分解",
+    "examUnit": "数の性質・和の分解",
+    "level": 1,
+    "difficulty": "easy",
+    "abstractionLevel": "半抽象問題",
+    "targetSkill": "残りを考えよう",
+    "thinkingType": "30から12を引いて考えた",
+    "examRelevance": "数の性質・和の分解の基礎として、中学受験の土台になります。",
+    "title": "残りを考えよう",
+    "question": "全部で30こあります。12こ使うと、残りは何こですか？",
+    "choices": [
+      "18こ",
+      "42こ",
+      "12こ",
+      "19こ"
+    ],
+    "answer": "18こ",
+    "thinkingChoices": [
+      "30から12を引いて考えた",
+      "順番に書き出した",
+      "図や表にして考えた",
+      "なんとなく選んだ"
+    ],
+    "bestThinking": "30から12を引いて考えた",
+    "hints": [
+      "全部の数を見ます。",
+      "使った数を引きます。",
+      "30-12です。"
+    ],
+    "explanation": "残りは18こです。",
+    "childTip": "あわてず、まとまりや条件を見つけよう。",
+    "parentTip": "数の性質・和の分解の入口です。答えだけでなく、考えた順番を聞いてあげてください。",
+    "tags": [
+      "数の分解",
+      "甲府館球場"
+    ],
+    "nextAbstractQuestionId": "stadium-kofu-decompose-3-exam"
+  }
+]

@@ -96,6 +96,7 @@ export default function SavePage() {
         <section className="mt-5 rounded-lg bg-white p-5 shadow-sm">
           <h2 className="text-xl font-black text-slate-950"><RubyText text="子どもの名前" /></h2>
           <form
+            id="child-name-form"
             className="mt-4 flex flex-col gap-3 sm:flex-row"
             onSubmit={(event) => {
               event.preventDefault();
@@ -103,6 +104,7 @@ export default function SavePage() {
             }}
           >
             <input
+              id="child-name-input"
               value={name}
               onChange={(event) => setName(event.target.value)}
               placeholder="名前を入れてね"
@@ -117,13 +119,78 @@ export default function SavePage() {
             </button>
           </form>
           <p className="mt-3 text-sm font-bold text-slate-600">
-            保存中: {profile?.name ? `${profile.name}さん` : "まだ名前がありません"}
+            保存中: <span id="child-name-current">{profile?.name ? `${profile.name}さん` : "まだ名前がありません"}</span>
           </p>
           {saveMessage && (
             <p className="mt-2 rounded-lg bg-emerald-50 p-3 text-sm font-black text-emerald-900">
               {saveMessage}
             </p>
           )}
+          <p id="child-name-message" className="mt-2 hidden rounded-lg bg-emerald-50 p-3 text-sm font-black text-emerald-900" />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+(function () {
+  var form = document.getElementById('child-name-form');
+  var input = document.getElementById('child-name-input');
+  var current = document.getElementById('child-name-current');
+  var message = document.getElementById('child-name-message');
+  if (!form || !input || form.getAttribute('data-fallback-ready') === 'true') return;
+  form.setAttribute('data-fallback-ready', 'true');
+  function readProfile() {
+    try {
+      var stored = window.localStorage && window.localStorage.getItem('sbbt_child_profile');
+      if (stored) return JSON.parse(stored);
+    } catch (error) {}
+    try {
+      var parts = document.cookie.split('; ');
+      for (var i = 0; i < parts.length; i += 1) {
+        if (parts[i].indexOf('sbbt_child_profile=') === 0) {
+          return JSON.parse(decodeURIComponent(parts[i].slice('sbbt_child_profile='.length)));
+        }
+      }
+    } catch (error) {}
+    return null;
+  }
+  function writeProfile(profile) {
+    var saved = false;
+    try {
+      window.localStorage.setItem('sbbt_child_profile', JSON.stringify(profile));
+      saved = true;
+    } catch (error) {}
+    try {
+      document.cookie = 'sbbt_child_profile=' + encodeURIComponent(JSON.stringify(profile)) + '; max-age=31536000; path=/; SameSite=Lax';
+      saved = true;
+    } catch (error) {}
+    return saved;
+  }
+  var profile = readProfile();
+  if (profile && profile.name) {
+    input.value = profile.name;
+    if (current) current.textContent = profile.name + 'さん';
+  }
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    var now = new Date().toISOString();
+    var existing = readProfile() || {};
+    var name = input.value.replace(/^\\s+|\\s+$/g, '');
+    var next = {
+      id: existing.id || ('local-child-' + now),
+      name: name,
+      createdAt: existing.createdAt || now,
+      updatedAt: now,
+      storageVersion: 1
+    };
+    var saved = writeProfile(next);
+    if (current) current.textContent = name ? name + 'さん' : 'まだ名前がありません';
+    if (message) {
+      message.className = message.className.replace('hidden', '');
+      message.textContent = saved ? (name ? name + 'さんで保存しました。' : '名前を空にしました。') : '名前を保存できませんでした。';
+    }
+  });
+})();`,
+            }}
+          />
         </section>
 
         <section className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">

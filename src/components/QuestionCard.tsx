@@ -44,6 +44,7 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
             <button
               key={choice}
               type="button"
+              data-answer-choice={choice}
               onClick={() => setSelectedAnswer(choice)}
               className={`min-h-14 rounded-lg border-2 px-4 py-3 text-left text-lg font-black transition ${
                 selectedAnswer === choice
@@ -64,6 +65,7 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
             <button
               key={choice}
               type="button"
+              data-thinking-choice={choice}
               onClick={() => setSelectedThinking(choice)}
               className={`min-h-12 rounded-lg border-2 px-4 py-3 text-left text-base font-bold transition ${
                 selectedThinking === choice
@@ -87,12 +89,81 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
 
       <button
         type="button"
+        data-check-answer="true"
+        data-correct-answer={question.answer}
+        data-best-thinking={question.bestThinking}
+        data-explanation={question.explanation}
         disabled={!canSubmit}
         onClick={() => onAnswered(selectedAnswer, selectedThinking, hintCount)}
         className="mt-6 w-full rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-red-600 disabled:bg-slate-300"
       >
         <RubyText text="答え合わせをする" />
       </button>
+      <div data-fallback-feedback="true" className="mt-5 hidden rounded-lg bg-amber-50 p-4 text-base font-black leading-7 text-amber-950" />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+(function () {
+  var cards = document.querySelectorAll('[data-check-answer]');
+  for (var i = 0; i < cards.length; i += 1) {
+    var submit = cards[i];
+    var root = submit;
+    while (root && root.tagName !== 'ARTICLE') {
+      root = root.parentNode;
+    }
+    if (!root || root.getAttribute('data-fallback-ready') === 'true') continue;
+    root.setAttribute('data-fallback-ready', 'true');
+    var selectedAnswer = '';
+    var selectedThinking = '';
+    var answerButtons = root.querySelectorAll('[data-answer-choice]');
+    var thinkingButtons = root.querySelectorAll('[data-thinking-choice]');
+    var feedback = root.querySelector('[data-fallback-feedback]');
+    function paint(list, attr, value, selectedClass) {
+      for (var j = 0; j < list.length; j += 1) {
+        var button = list[j];
+        if (button.getAttribute(attr) === value) {
+          button.className = button.className + ' ' + selectedClass;
+        } else {
+          button.className = button.className.replace(selectedClass, '');
+        }
+      }
+    }
+    function updateSubmit() {
+      if (selectedAnswer && selectedThinking) {
+        submit.removeAttribute('disabled');
+        submit.className = submit.className.replace('disabled:bg-slate-300', '');
+      }
+    }
+    for (var a = 0; a < answerButtons.length; a += 1) {
+      answerButtons[a].addEventListener('click', function () {
+        selectedAnswer = this.getAttribute('data-answer-choice') || '';
+        paint(answerButtons, 'data-answer-choice', selectedAnswer, ' border-blue-600 bg-blue-100 text-blue-950');
+        updateSubmit();
+      });
+    }
+    for (var t = 0; t < thinkingButtons.length; t += 1) {
+      thinkingButtons[t].addEventListener('click', function () {
+        selectedThinking = this.getAttribute('data-thinking-choice') || '';
+        paint(thinkingButtons, 'data-thinking-choice', selectedThinking, ' border-emerald-600 bg-emerald-100 text-emerald-950');
+        updateSubmit();
+      });
+    }
+    submit.addEventListener('click', function () {
+      if (!selectedAnswer || !selectedThinking || !feedback) return;
+      var correct = this.getAttribute('data-correct-answer') || '';
+      var best = this.getAttribute('data-best-thinking') || '';
+      var explanation = this.getAttribute('data-explanation') || '';
+      var result = selectedAnswer === correct ? 'ナイスヒット！' : 'いいところまで考えたね';
+      feedback.className = feedback.className.replace('hidden', '');
+      feedback.innerHTML = result + '<br>正しい答え: ' + correct + '<br>よい考え方: ' + best + '<br>' + explanation;
+      try {
+        feedback.scrollIntoView(false);
+      } catch (error) {}
+    });
+  }
+})();`,
+        }}
+      />
     </article>
   );
 }

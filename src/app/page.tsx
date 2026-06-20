@@ -95,13 +95,13 @@ export default function Home() {
                 <p className="text-sm font-black text-slate-700">iPad用ミッション</p>
                 <div className="mt-3 grid gap-3 sm:grid-cols-2">
                   <Link
-                    href="/ipad-static/10/q0.html"
+                    href="/ipad-lite/10/q0.html"
                     className="inline-flex w-full items-center justify-center rounded-lg bg-slate-900 px-5 py-3 text-lg font-black text-white shadow-sm transition hover:bg-slate-800"
                   >
                     iPad 10問
                   </Link>
                   <Link
-                    href="/ipad-static/5/q0.html"
+                    href="/ipad-lite/5/q0.html"
                     className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-700 px-5 py-3 text-lg font-black text-white shadow-sm transition hover:bg-emerald-800"
                   >
                     iPad 5問

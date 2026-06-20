@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { type FormEvent, useMemo, useRef, useState } from "react";
 import type { Question } from "@/types/question";
 import { HintBox } from "./HintBox";
 import { RubyText } from "./RubyText";
@@ -30,6 +30,11 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
     onAnswered(answer, thinking, hintCount);
   }
 
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    submitAnswer();
+  }
+
   return (
     <article className="rounded-lg border-2 border-slate-200 bg-white p-5 shadow-lg">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
@@ -46,7 +51,7 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
 
       <p className="mt-5 rounded-lg bg-sky-50 p-4 text-lg font-bold leading-9 text-slate-900"><RubyText text={question.question} /></p>
 
-      <form ref={formRef}>
+      <form ref={formRef} onSubmit={handleSubmit}>
         <section className="mt-5">
           <h2 className="text-lg font-black"><RubyText text="答えをえらぼう" /></h2>
           <div className="mt-3 grid gap-3 sm:grid-cols-2">
@@ -100,27 +105,25 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
             ))}
           </div>
         </section>
+        <div className="mt-5">
+          <HintBox
+            hints={question.hints}
+            shownCount={hintCount}
+            onShowHint={() => setHintCount((count) => Math.min(3, count + 1))}
+          />
+        </div>
+
+        <button
+          type="submit"
+          data-check-answer="true"
+          data-correct-answer={question.answer}
+          data-best-thinking={question.bestThinking}
+          data-explanation={question.explanation}
+          className="mt-6 w-full rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-red-600"
+        >
+          <RubyText text="答え合わせをする" />
+        </button>
       </form>
-
-      <div className="mt-5">
-        <HintBox
-          hints={question.hints}
-          shownCount={hintCount}
-          onShowHint={() => setHintCount((count) => Math.min(3, count + 1))}
-        />
-      </div>
-
-      <button
-        type="button"
-        data-check-answer="true"
-        data-correct-answer={question.answer}
-        data-best-thinking={question.bestThinking}
-        data-explanation={question.explanation}
-        onClick={submitAnswer}
-        className="mt-6 w-full rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-red-600"
-      >
-        <RubyText text="答え合わせをする" />
-      </button>
     </article>
   );
 }

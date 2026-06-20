@@ -5,11 +5,11 @@ export type CardRarity = "SS" | "S" | "A" | "B" | "C";
 export const cardRarities: CardRarity[] = ["SS", "S", "A", "B", "C"];
 
 const rarityRewardWeights: Record<CardRarity, number> = {
-  SS: 2,
-  S: 6,
-  A: 16,
+  SS: 1,
+  S: 4,
+  A: 15,
   B: 30,
-  C: 46,
+  C: 50,
 };
 
 export type WarriorCard = {

@@ -476,10 +476,10 @@ function recentOwnedCardIds(limit = 5) {
     .map((card) => card.id);
 }
 
-function chooseRewardPool(pool: WarriorCard[]) {
-  const source = pool.length ? pool : warriorCards;
+function chooseRewardPool() {
   const ownedIds = new Set(getOwnedCards().map((card) => card.id));
   const recentIds = new Set(recentOwnedCardIds());
+  const source = warriorCards.filter((card) => !recentIds.has(card.id));
   const unowned = source.filter((card) => !ownedIds.has(card.id));
   const preferred = unowned.length ? unowned : source;
   const withoutRecent = preferred.filter((card) => !recentIds.has(card.id));
@@ -495,14 +495,11 @@ export function getMissionRewardCard(records: AnswerRecord[], missionId = getCur
   const savedCard = savedReward ? warriorCards.find((card) => card.id === savedReward.cardId) : undefined;
   if (savedCard) return { card: savedCard, saved: savedReward.saved };
 
-  const mission = getCurrentMission();
-  const stadium = getStadiumById(mission?.stadiumId);
-  const featuredCards = warriorCards.filter((card) => stadium.featuredWarriors.includes(card.warrior));
   const seed = records.reduce(
     (sum, record) => sum + record.questionId.length + (record.isCorrect ? 7 : 2) + record.completedAt.length,
     missionId.length
   );
-  const rewardPool = chooseRewardPool(featuredCards.length ? featuredCards : warriorCards);
+  const rewardPool = chooseRewardPool();
   const randomSeed = seed + Date.now() + Math.floor(Math.random() * 100000);
   const card = pickRewardCard(randomSeed, rewardPool);
   writeJson<RewardStore>(REWARD_CARDS_KEY, { ...saved, [missionId]: { cardId: card.id, saved: false } });

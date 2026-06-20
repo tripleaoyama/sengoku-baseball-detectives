@@ -13,6 +13,7 @@ const STADIUM_PROGRESS_KEY = "sbbt_stadium_progress";
 const SELECTED_STADIUM_KEY = "sbbt_selected_stadium";
 const STADIUM_RECORDED_MISSIONS_KEY = "sbbt_stadium_recorded_missions";
 const CHILD_PROFILE_KEY = "sbbt_child_profile";
+const CHILD_PROFILE_COOKIE_KEY = "sbbt_child_profile";
 export const QUESTIONS_PER_MISSION = 10;
 export const SHORT_QUESTIONS_PER_MISSION = 5;
 export const REVIEW_QUESTIONS_PER_MISSION = 5;
@@ -59,11 +60,42 @@ function readJson<T>(key: string, fallback: T): T {
 }
 
 function writeJson<T>(key: string, value: T) {
-  if (!canUseStorage()) return;
+  if (!canUseStorage()) return false;
   try {
     window.localStorage.setItem(key, JSON.stringify(value));
+    return true;
   } catch {
     // LocalStorage may be blocked. The app should still be playable.
+    return false;
+  }
+}
+
+function canUseCookies() {
+  return typeof document !== "undefined" && typeof document.cookie === "string";
+}
+
+function readCookieJson<T>(key: string, fallback: T): T {
+  if (!canUseCookies()) return fallback;
+  try {
+    const prefix = `${key}=`;
+    const raw = document.cookie
+      .split("; ")
+      .find((item) => item.startsWith(prefix))
+      ?.slice(prefix.length);
+    return raw ? (JSON.parse(decodeURIComponent(raw)) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function writeCookieJson<T>(key: string, value: T) {
+  if (!canUseCookies()) return false;
+  try {
+    const encoded = encodeURIComponent(JSON.stringify(value));
+    document.cookie = `${key}=${encoded}; max-age=31536000; path=/; SameSite=Lax`;
+    return true;
+  } catch {
+    return false;
   }
 }
 
@@ -76,7 +108,9 @@ export function saveAnswer(record: AnswerRecord) {
 }
 
 export function getChildProfile(): ChildProfile {
-  const saved = readJson<ChildProfile | null>(CHILD_PROFILE_KEY, null);
+  const saved =
+    readJson<ChildProfile | null>(CHILD_PROFILE_KEY, null) ??
+    readCookieJson<ChildProfile | null>(CHILD_PROFILE_COOKIE_KEY, null);
   if (saved?.id) return saved;
 
   const now = new Date().toISOString();
@@ -97,22 +131,30 @@ export function saveChildName(name: string) {
     name: name.trim(),
     updatedAt: now,
   };
-  writeJson(CHILD_PROFILE_KEY, profile);
+  const savedToStorage = writeJson(CHILD_PROFILE_KEY, profile);
+  const savedToCookie = writeCookieJson(CHILD_PROFILE_COOKIE_KEY, profile);
+  if (!savedToStorage && !savedToCookie) {
+    throw new Error("名前を保存できませんでした。ブラウザの保存設定を確認してください。");
+  }
   return profile;
 }
 
 export function resetAllLocalSaveData() {
-  if (!canUseStorage()) return;
-  [
-    HISTORY_KEY,
-    TODAY_KEY,
-    CARDS_KEY,
-    REWARD_CARDS_KEY,
-    STADIUM_PROGRESS_KEY,
-    SELECTED_STADIUM_KEY,
-    STADIUM_RECORDED_MISSIONS_KEY,
-    CHILD_PROFILE_KEY,
-  ].forEach((key) => window.localStorage.removeItem(key));
+  if (canUseStorage()) {
+    [
+      HISTORY_KEY,
+      TODAY_KEY,
+      CARDS_KEY,
+      REWARD_CARDS_KEY,
+      STADIUM_PROGRESS_KEY,
+      SELECTED_STADIUM_KEY,
+      STADIUM_RECORDED_MISSIONS_KEY,
+      CHILD_PROFILE_KEY,
+    ].forEach((key) => window.localStorage.removeItem(key));
+  }
+  if (canUseCookies()) {
+    document.cookie = `${CHILD_PROFILE_COOKIE_KEY}=; max-age=0; path=/; SameSite=Lax`;
+  }
 }
 
 export function getStadiumProgress(): StadiumProgress[] {

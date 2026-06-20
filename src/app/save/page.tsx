@@ -27,6 +27,7 @@ export default function SavePage() {
   const [clearedCount, setClearedCount] = useState(0);
   const [unlockedCount, setUnlockedCount] = useState(0);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [saveMessage, setSaveMessage] = useState("");
 
   useEffect(() => {
     loadSaveData();
@@ -45,7 +46,14 @@ export default function SavePage() {
   }
 
   function saveName() {
-    setProfile(saveChildName(name));
+    try {
+      const nextProfile = saveChildName(name);
+      setProfile(nextProfile);
+      setName(nextProfile.name);
+      setSaveMessage(nextProfile.name ? `${nextProfile.name}さんで保存しました。` : "名前を空にしました。");
+    } catch (error) {
+      setSaveMessage(error instanceof Error ? error.message : "名前を保存できませんでした。");
+    }
   }
 
   function resetData() {
@@ -87,24 +95,35 @@ export default function SavePage() {
 
         <section className="mt-5 rounded-lg bg-white p-5 shadow-sm">
           <h2 className="text-xl font-black text-slate-950"><RubyText text="子どもの名前" /></h2>
-          <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+          <form
+            className="mt-4 flex flex-col gap-3 sm:flex-row"
+            onSubmit={(event) => {
+              event.preventDefault();
+              saveName();
+            }}
+          >
             <input
               value={name}
               onChange={(event) => setName(event.target.value)}
               placeholder="名前を入れてね"
+              autoComplete="name"
               className="min-h-12 flex-1 rounded-lg border-2 border-slate-200 px-4 text-lg font-bold outline-none focus:border-red-400"
             />
             <button
-              type="button"
-              onClick={saveName}
+              type="submit"
               className="rounded-lg bg-red-500 px-6 py-3 text-lg font-black text-white shadow-sm transition hover:bg-red-600"
             >
               <RubyText text="名前を保存" />
             </button>
-          </div>
+          </form>
           <p className="mt-3 text-sm font-bold text-slate-600">
             保存中: {profile?.name ? `${profile.name}さん` : "まだ名前がありません"}
           </p>
+          {saveMessage && (
+            <p className="mt-2 rounded-lg bg-emerald-50 p-3 text-sm font-black text-emerald-900">
+              {saveMessage}
+            </p>
+          )}
         </section>
 
         <section className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">

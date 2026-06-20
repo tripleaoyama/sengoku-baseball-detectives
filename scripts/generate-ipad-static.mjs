@@ -1,8 +1,8 @@
-import { mkdir, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import questions from "../src/data/questions.json" with { type: "json" };
 
 const outputRoot = path.join(process.cwd(), "public", "ipad-static");
+const questions = JSON.parse(await readFile(path.join(process.cwd(), "src", "data", "questions.json"), "utf8"));
 
 function escapeHtml(value) {
   return String(value)

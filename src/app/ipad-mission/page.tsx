@@ -24,6 +24,16 @@ function buildQuestionUrl(count: number, index: number) {
   return `/ipad-mission?count=${count}&q=${index}`;
 }
 
+function buildAnswerUrl(count: number, index: number, answer: string) {
+  const params = new URLSearchParams({ count: String(count), q: String(index), answer });
+  return `/ipad-mission?${params.toString()}`;
+}
+
+function buildFeedbackUrl(count: number, index: number, answer: string, thinking: string) {
+  const params = new URLSearchParams({ count: String(count), q: String(index), answer, thinking, checked: "1" });
+  return `/ipad-mission?${params.toString()}`;
+}
+
 export default async function IpadMissionPage({ searchParams }: { searchParams: SearchParams }) {
   const params = await searchParams;
   const count = normalizeCount(params.count);
@@ -60,7 +70,6 @@ export default async function IpadMissionPage({ searchParams }: { searchParams: 
     return <main className="min-h-screen p-6 text-lg font-bold">iPad用ミッションを準備しています。</main>;
   }
 
-  const needsSelection = checked && (!selectedAnswer || !selectedThinking);
   const showFeedback = checked && selectedAnswer && selectedThinking;
   const isAnswerCorrect = selectedAnswer === question.answer;
   const isThinkingCorrect = selectedThinking === question.bestThinking;
@@ -83,43 +92,40 @@ export default async function IpadMissionPage({ searchParams }: { searchParams: 
             <h1 className="mt-2 text-2xl font-black leading-tight text-slate-950">{question.title}</h1>
             <p className="mt-4 rounded-lg bg-amber-50 p-4 text-lg font-bold leading-8 text-slate-800">{question.question}</p>
 
-            <form action="/ipad-mission" method="get" className="mt-5 grid gap-5">
-              <input type="hidden" name="count" value={count} />
-              <input type="hidden" name="q" value={currentIndex} />
-              <input type="hidden" name="checked" value="1" />
-
-              <fieldset className="grid gap-3">
-                <legend className="text-base font-black text-slate-900">答え</legend>
+            {!selectedAnswer ? (
+              <div className="mt-5 grid gap-3">
+                <p className="text-base font-black text-slate-900">答えをタップ</p>
                 {question.choices.map((choice) => (
-                  <label
+                  <Link
                     key={choice}
-                    className="flex min-h-14 items-center gap-3 rounded-lg border-2 border-slate-200 bg-slate-50 px-4 py-3 text-lg font-black text-slate-900"
+                    href={buildAnswerUrl(count, currentIndex, choice)}
+                    className="block min-h-14 rounded-lg border-2 border-slate-200 bg-slate-50 px-4 py-4 text-lg font-black text-slate-900 shadow-sm"
                   >
-                    <input className="h-6 w-6 accent-red-500" type="radio" name="answer" value={choice} defaultChecked={selectedAnswer === choice} />
-                    <span>{choice}</span>
-                  </label>
+                    {choice}
+                  </Link>
                 ))}
-              </fieldset>
-
-              <fieldset className="grid gap-3">
-                <legend className="text-base font-black text-slate-900">考え方</legend>
+              </div>
+            ) : (
+              <div className="mt-5 grid gap-3">
+                <div className="rounded-lg bg-red-50 p-4">
+                  <p className="text-sm font-black text-red-700">選んだ答え</p>
+                  <p className="mt-1 text-xl font-black text-red-950">{selectedAnswer}</p>
+                </div>
+                <p className="text-base font-black text-slate-900">考え方をタップ</p>
                 {question.thinkingChoices.map((choice) => (
-                  <label
+                  <Link
                     key={choice}
-                    className="flex min-h-14 items-center gap-3 rounded-lg border-2 border-sky-200 bg-sky-50 px-4 py-3 text-base font-black text-slate-900"
+                    href={buildFeedbackUrl(count, currentIndex, selectedAnswer, choice)}
+                    className="block min-h-14 rounded-lg border-2 border-sky-200 bg-sky-50 px-4 py-4 text-base font-black text-slate-900 shadow-sm"
                   >
-                    <input className="h-6 w-6 accent-sky-600" type="radio" name="thinking" value={choice} defaultChecked={selectedThinking === choice} />
-                    <span>{choice}</span>
-                  </label>
+                    {choice}
+                  </Link>
                 ))}
-              </fieldset>
-
-              {needsSelection && <p className="rounded-lg bg-red-50 p-3 text-base font-black text-red-700">答えと考え方を1つずつ選んでね。</p>}
-
-              <button type="submit" className="rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg">
-                答え合わせをする
-              </button>
-            </form>
+                <Link href={buildQuestionUrl(count, currentIndex)} className="mt-2 block rounded-lg bg-white px-4 py-3 text-center text-base font-black text-slate-700 shadow-sm">
+                  答えを選び直す
+                </Link>
+              </div>
+            )}
           </section>
         ) : (
           <section className="rounded-lg border-2 border-slate-200 bg-white p-5 shadow-lg">

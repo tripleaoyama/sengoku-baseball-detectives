@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { QuestionCard } from "@/components/QuestionCard";
 import { RubyText } from "@/components/RubyText";
-import { getActiveMission, getMissionRecords, getTodayMission, inferMistakeType, saveAnswer, startNewMission, startShortMission } from "@/lib/storage";
+import { getActiveMission, getMissionRecords, getQuestionById, inferMistakeType, saveAnswer, startNewMission, startShortMission } from "@/lib/storage";
 import { getStadiumById } from "@/lib/stadiums";
 import type { Question, TodayMission } from "@/types/question";
 
@@ -26,18 +26,22 @@ export default function MissionPage() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const requestedCount = params.get("count");
-    const activeMission =
+    let activeMission =
       requestedCount === "5"
         ? startShortMission()
         : requestedCount === "10"
           ? startNewMission({ mode: "normal", questionCount: 10 })
           : getActiveMission();
-    const missionQuestions = getTodayMission();
+    let missionQuestions = activeMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
+    if (!missionQuestions.length) {
+      activeMission = startNewMission({ mode: "normal", questionCount: 10 });
+      missionQuestions = activeMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
+    }
     const done = getMissionRecords(activeMission.id).map((record) => record.questionId);
     setMission(activeMission);
     setQuestions(missionQuestions);
     setCurrentIndex(Math.min(done.length, missionQuestions.length - 1));
-    if (requestedCount === "5" || requestedCount === "10") router.replace("/mission");
+    if (requestedCount === "5" || requestedCount === "10") window.history.replaceState({}, "", "/mission");
     if (done.length >= missionQuestions.length) router.replace("/result");
   }, [router]);
 
@@ -100,7 +104,7 @@ export default function MissionPage() {
         <section className={`mb-4 rounded-lg bg-gradient-to-br ${stadium.color} p-4 text-white shadow-sm`}>
           <p className="text-xs font-black opacity-90">現在の城球場</p>
           <h1 className="mt-1 text-2xl font-black">{stadium.name}</h1>
-          <p className="mt-1 text-sm font-bold"><RubyText text={`今日の10問トレーニング: ${stadium.examFocus}`} /></p>
+          <p className="mt-1 text-sm font-bold"><RubyText text={`今日の${questions.length}問トレーニング: ${stadium.examFocus}`} /></p>
         </section>
 
         {!feedback ? (

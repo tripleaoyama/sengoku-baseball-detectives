@@ -347,6 +347,21 @@ export function getQuestionById(id: string) {
   return allQuestions.find((question) => question.id === id);
 }
 
+export function getFallbackMissionQuestions(count = QUESTIONS_PER_MISSION): Question[] {
+  return allQuestions.slice(0, count);
+}
+
+export function createFallbackMission(questionCount = QUESTIONS_PER_MISSION): TodayMission {
+  return {
+    id: `fallback-${todayKey()}-${questionCount}`,
+    date: todayKey(),
+    stadiumId: stadiums[0].id,
+    mode: questionCount === SHORT_QUESTIONS_PER_MISSION ? "short" : "normal",
+    questionIds: getFallbackMissionQuestions(questionCount).map((question) => question.id),
+    startedAt: new Date().toISOString(),
+  };
+}
+
 export function getStreak() {
   const dates = Array.from(new Set(getHistory().map((record) => record.learningDate))).sort().reverse();
   let count = 0;

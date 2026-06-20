@@ -5,7 +5,17 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { QuestionCard } from "@/components/QuestionCard";
 import { RubyText } from "@/components/RubyText";
-import { getActiveMission, getMissionRecords, getQuestionById, inferMistakeType, saveAnswer, startNewMission, startShortMission } from "@/lib/storage";
+import {
+  createFallbackMission,
+  getActiveMission,
+  getFallbackMissionQuestions,
+  getMissionRecords,
+  getQuestionById,
+  inferMistakeType,
+  saveAnswer,
+  startNewMission,
+  startShortMission,
+} from "@/lib/storage";
 import { getStadiumById } from "@/lib/stadiums";
 import type { Question, TodayMission } from "@/types/question";
 
@@ -18,8 +28,8 @@ type Feedback = {
 
 export default function MissionPage() {
   const router = useRouter();
-  const [questions, setQuestions] = useState<Question[]>([]);
-  const [mission, setMission] = useState<TodayMission | null>(null);
+  const [questions, setQuestions] = useState<Question[]>(() => getFallbackMissionQuestions());
+  const [mission, setMission] = useState<TodayMission | null>(() => createFallbackMission());
   const [currentIndex, setCurrentIndex] = useState(0);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
 

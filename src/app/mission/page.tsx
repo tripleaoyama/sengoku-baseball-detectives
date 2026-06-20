@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { QuestionCard } from "@/components/QuestionCard";
 import { RubyText } from "@/components/RubyText";
-import { getActiveMission, getMissionRecords, getTodayMission, inferMistakeType, saveAnswer } from "@/lib/storage";
+import { getActiveMission, getMissionRecords, getTodayMission, inferMistakeType, saveAnswer, startNewMission, startShortMission } from "@/lib/storage";
 import { getStadiumById } from "@/lib/stadiums";
 import type { Question, TodayMission } from "@/types/question";
 
@@ -24,12 +24,20 @@ export default function MissionPage() {
   const [feedback, setFeedback] = useState<Feedback | null>(null);
 
   useEffect(() => {
-    const activeMission = getActiveMission();
+    const params = new URLSearchParams(window.location.search);
+    const requestedCount = params.get("count");
+    const activeMission =
+      requestedCount === "5"
+        ? startShortMission()
+        : requestedCount === "10"
+          ? startNewMission({ mode: "normal", questionCount: 10 })
+          : getActiveMission();
     const missionQuestions = getTodayMission();
     const done = getMissionRecords(activeMission.id).map((record) => record.questionId);
     setMission(activeMission);
     setQuestions(missionQuestions);
     setCurrentIndex(Math.min(done.length, missionQuestions.length - 1));
+    if (requestedCount === "5" || requestedCount === "10") router.replace("/mission");
     if (done.length >= missionQuestions.length) router.replace("/result");
   }, [router]);
 

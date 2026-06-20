@@ -2,15 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { warriorCards } from "@/lib/cards";
-import { getReviewQuestionCount, getSelectedStadium, getStreak, getTodayCompletedMatchCount, getTodayRecords, startNewMission, startShortMission, titleFor } from "@/lib/storage";
+import { getReviewQuestionCount, getSelectedStadium, getStreak, getTodayCompletedMatchCount, getTodayRecords, titleFor } from "@/lib/storage";
 import type { Stadium } from "@/lib/stadiums";
 import { ProgressCard } from "@/components/ProgressCard";
 import { RubyText } from "@/components/RubyText";
 
 export default function Home() {
-  const router = useRouter();
   const [doneCount, setDoneCount] = useState(0);
   const [streak, setStreak] = useState(0);
   const [title, setTitle] = useState("見習い軍師");
@@ -27,16 +25,6 @@ export default function Home() {
     setStadium(getSelectedStadium());
     setReviewCount(getReviewQuestionCount());
   }, []);
-
-  function startTenQuestionMission() {
-    startNewMission({ mode: "normal", questionCount: 10 });
-    router.push("/mission");
-  }
-
-  function startFiveQuestionMission() {
-    startShortMission();
-    router.push("/mission");
-  }
 
   return (
     <main className="pattern-field min-h-screen px-4 py-6 sm:px-6">
@@ -78,20 +66,18 @@ export default function Home() {
                 </div>
               )}
               <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                <button
-                  type="button"
-                  onClick={startTenQuestionMission}
+                <Link
+                  href="/mission?count=10"
                   className="inline-flex w-full items-center justify-center rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-red-600"
                 >
                   <RubyText text="10問ミッション" />
-                </button>
-                <button
-                  type="button"
-                  onClick={startFiveQuestionMission}
+                </Link>
+                <Link
+                  href="/mission?count=5"
                   className="inline-flex w-full items-center justify-center rounded-lg bg-amber-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-amber-600"
                 >
                   <RubyText text="5問ミッション" />
-                </button>
+                </Link>
                 <Link
                   href="/review"
                   className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-emerald-700"

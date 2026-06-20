@@ -40,7 +40,12 @@ export function todayKey(date = new Date()) {
 }
 
 function canUseStorage() {
-  return typeof window !== "undefined" && typeof window.localStorage !== "undefined";
+  if (typeof window === "undefined") return false;
+  try {
+    return typeof window.localStorage !== "undefined";
+  } catch {
+    return false;
+  }
 }
 
 function readJson<T>(key: string, fallback: T): T {

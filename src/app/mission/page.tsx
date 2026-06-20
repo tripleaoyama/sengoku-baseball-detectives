@@ -24,25 +24,35 @@ export default function MissionPage() {
   const [feedback, setFeedback] = useState<Feedback | null>(null);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const requestedCount = params.get("count");
-    let activeMission =
-      requestedCount === "5"
-        ? startShortMission()
-        : requestedCount === "10"
-          ? startNewMission({ mode: "normal", questionCount: 10 })
-          : getActiveMission();
-    let missionQuestions = activeMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
-    if (!missionQuestions.length) {
-      activeMission = startNewMission({ mode: "normal", questionCount: 10 });
-      missionQuestions = activeMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const requestedCount = params.get("count");
+      let activeMission =
+        requestedCount === "5"
+          ? startShortMission()
+          : requestedCount === "10"
+            ? startNewMission({ mode: "normal", questionCount: 10 })
+            : getActiveMission();
+      let missionQuestions = activeMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
+      if (!missionQuestions.length) {
+        activeMission = startNewMission({ mode: "normal", questionCount: 10 });
+        missionQuestions = activeMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
+      }
+      const done = getMissionRecords(activeMission.id).map((record) => record.questionId);
+      setMission(activeMission);
+      setQuestions(missionQuestions);
+      setCurrentIndex(Math.min(done.length, missionQuestions.length - 1));
+      if (requestedCount === "5" || requestedCount === "10") {
+        window.history.replaceState({}, "", "/mission");
+      }
+      if (done.length >= missionQuestions.length) router.replace("/result");
+    } catch {
+      const fallbackMission = startNewMission({ mode: "normal", questionCount: 10 });
+      const fallbackQuestions = fallbackMission.questionIds.map((id) => getQuestionById(id)).filter(Boolean) as Question[];
+      setMission(fallbackMission);
+      setQuestions(fallbackQuestions);
+      setCurrentIndex(0);
     }
-    const done = getMissionRecords(activeMission.id).map((record) => record.questionId);
-    setMission(activeMission);
-    setQuestions(missionQuestions);
-    setCurrentIndex(Math.min(done.length, missionQuestions.length - 1));
-    if (requestedCount === "5" || requestedCount === "10") window.history.replaceState({}, "", "/mission");
-    if (done.length >= missionQuestions.length) router.replace("/result");
   }, [router]);
 
   if (!questions.length) {

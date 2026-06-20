@@ -420,7 +420,7 @@ export function getMissionRewardCard(records: AnswerRecord[], missionId = getCur
     missionId.length
   );
   const rewardPool = featuredCards.length ? featuredCards : warriorCards;
-  const card = rewardPool[Math.abs(seed) % rewardPool.length] ?? pickRewardCard(seed);
+  const card = pickRewardCard(seed, rewardPool);
   writeJson<RewardStore>(REWARD_CARDS_KEY, { ...saved, [missionId]: { cardId: card.id, saved: false } });
   return { card, saved: false };
 }

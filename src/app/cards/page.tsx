@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { warriorCards, type OwnedCard } from "@/lib/cards";
+import { cardRarities, rarityBadge, warriorCards, type CardRarity, type OwnedCard } from "@/lib/cards";
 import { getOwnedCards } from "@/lib/storage";
 import { SamuraiCardFace } from "@/components/SamuraiCard";
 
@@ -12,12 +12,18 @@ function safeNumber(value: unknown) {
 
 export default function CardsPage() {
   const [ownedCards, setOwnedCards] = useState<OwnedCard[]>([]);
+  const [rarityFilter, setRarityFilter] = useState<CardRarity | "all">("all");
 
   useEffect(() => {
     setOwnedCards(getOwnedCards());
   }, []);
 
   const ownedMap = useMemo(() => new Map(ownedCards.map((card) => [card.id, card])), [ownedCards]);
+  const filteredCards = useMemo(
+    () => (rarityFilter === "all" ? warriorCards : warriorCards.filter((card) => card.rarity === rarityFilter)),
+    [rarityFilter]
+  );
+  const filteredOwnedCount = filteredCards.filter((card) => ownedMap.has(card.id)).length;
   const totals = ownedCards.reduce(
     (sum, card) => {
       const count = safeNumber(card.count);
@@ -83,8 +89,42 @@ export default function CardsPage() {
           </div>
         </section>
 
+        <section className="mt-5 rounded-lg border-2 border-slate-200 bg-white p-4 shadow-sm">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-sm font-black text-slate-500">ランクでしぼりこみ</p>
+              <p className="mt-1 text-xl font-black text-slate-950">
+                {filteredOwnedCount}/{filteredCards.length}枚
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setRarityFilter("all")}
+                className={`rounded-lg px-4 py-2 text-sm font-black shadow-sm ${
+                  rarityFilter === "all" ? "bg-slate-950 text-white" : "bg-slate-100 text-slate-700"
+                }`}
+              >
+                すべて
+              </button>
+              {cardRarities.map((rarity) => (
+                <button
+                  key={rarity}
+                  type="button"
+                  onClick={() => setRarityFilter(rarity)}
+                  className={`rounded-lg px-4 py-2 text-sm font-black shadow-sm ${
+                    rarityFilter === rarity ? rarityBadge(rarity) : "bg-slate-100 text-slate-700"
+                  }`}
+                >
+                  {rarity}
+                </button>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {warriorCards.map((card) => {
+          {filteredCards.map((card) => {
             const owned = ownedMap.get(card.id);
             return (
               <div key={card.id} className={owned ? "" : "opacity-55 grayscale"}>

@@ -2,6 +2,16 @@
 
 export type CardRarity = "SS" | "S" | "A" | "B" | "C";
 
+export const cardRarities: CardRarity[] = ["SS", "S", "A", "B", "C"];
+
+const rarityRewardWeights: Record<CardRarity, number> = {
+  SS: 2,
+  S: 6,
+  A: 16,
+  B: 30,
+  C: 46,
+};
+
 export type WarriorCard = {
   id: string;
   name: string;
@@ -270,8 +280,26 @@ export const warriorCards: WarriorCard[] = warriors.map((warrior, index) => {
   };
 });
 
-export function pickRewardCard(seed = Date.now()) {
-  return warriorCards[Math.abs(seed) % warriorCards.length];
+function seededUnit(seed: number) {
+  const value = Math.sin(seed || Date.now()) * 10000;
+  return value - Math.floor(value);
+}
+
+export function pickRewardCard(seed = Date.now(), pool: WarriorCard[] = warriorCards) {
+  const source = pool.length ? pool : warriorCards;
+  const availableRarities = cardRarities.filter((rarity) => source.some((card) => card.rarity === rarity));
+  const totalWeight = availableRarities.reduce((sum, rarity) => sum + rarityRewardWeights[rarity], 0);
+  let cursor = seededUnit(seed) * totalWeight;
+
+  for (const rarity of availableRarities) {
+    cursor -= rarityRewardWeights[rarity];
+    if (cursor <= 0) {
+      const rarityCards = source.filter((card) => card.rarity === rarity);
+      return rarityCards[Math.floor(seededUnit(seed + rarity.length + rarity.charCodeAt(0)) * rarityCards.length)];
+    }
+  }
+
+  return source[source.length - 1];
 }
 
 export function rarityBadge(rarity: CardRarity) {

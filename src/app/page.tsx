@@ -91,6 +91,23 @@ export default function Home() {
                   <RubyText text="単元別ミッション" />
                 </Link>
               </div>
+              <div className="mt-4 rounded-lg border-2 border-slate-200 bg-slate-50 p-4">
+                <p className="text-sm font-black text-slate-700">iPad用ミッション</p>
+                <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                  <Link
+                    href="/ipad-mission?count=10"
+                    className="inline-flex w-full items-center justify-center rounded-lg bg-slate-900 px-5 py-3 text-lg font-black text-white shadow-sm transition hover:bg-slate-800"
+                  >
+                    iPad 10問
+                  </Link>
+                  <Link
+                    href="/ipad-mission?count=5"
+                    className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-700 px-5 py-3 text-lg font-black text-white shadow-sm transition hover:bg-emerald-800"
+                  >
+                    iPad 5問
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="bg-emerald-600 p-4 text-white sm:p-6">
               <div className="overflow-hidden rounded-lg border-2 border-white/50 bg-white/15">

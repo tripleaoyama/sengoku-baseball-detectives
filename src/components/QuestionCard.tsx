@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { Question } from "@/types/question";
 import { HintBox } from "./HintBox";
 import { RubyText } from "./RubyText";
@@ -13,13 +13,22 @@ type QuestionCardProps = {
 };
 
 export function QuestionCard({ question, index, total, onAnswered }: QuestionCardProps) {
+  const formRef = useRef<HTMLFormElement>(null);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [selectedThinking, setSelectedThinking] = useState("");
   const [hintCount, setHintCount] = useState(0);
 
-  const canSubmit = selectedAnswer && selectedThinking;
   const answerChoices = useMemo(() => shuffleChoices(question.choices, `${question.id}-answer`), [question.id, question.choices]);
   const thinkingChoices = useMemo(() => shuffleChoices(question.thinkingChoices, question.id), [question.id, question.thinkingChoices]);
+
+  function submitAnswer() {
+    const form = formRef.current;
+    const formData = form ? new FormData(form) : null;
+    const answer = selectedAnswer || String(formData?.get("answer") ?? "");
+    const thinking = selectedThinking || String(formData?.get("thinking") ?? "");
+    if (!answer || !thinking) return;
+    onAnswered(answer, thinking, hintCount);
+  }
 
   return (
     <article className="rounded-lg border-2 border-slate-200 bg-white p-5 shadow-lg">
@@ -37,47 +46,61 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
 
       <p className="mt-5 rounded-lg bg-sky-50 p-4 text-lg font-bold leading-9 text-slate-900"><RubyText text={question.question} /></p>
 
-      <section className="mt-5">
-        <h2 className="text-lg font-black"><RubyText text="答えをえらぼう" /></h2>
-        <div className="mt-3 grid gap-3 sm:grid-cols-2">
-          {answerChoices.map((choice) => (
-            <button
-              key={choice}
-              type="button"
-              data-answer-choice={choice}
-              onClick={() => setSelectedAnswer(choice)}
-              className={`min-h-14 rounded-lg border-2 px-4 py-3 text-left text-lg font-black transition ${
-                selectedAnswer === choice
-                  ? "border-blue-600 bg-blue-100 text-blue-950"
-                  : "border-slate-200 bg-white hover:border-blue-300"
-              }`}
-            >
-              <RubyText text={choice} />
-            </button>
-          ))}
-        </div>
-      </section>
+      <form ref={formRef}>
+        <section className="mt-5">
+          <h2 className="text-lg font-black"><RubyText text="答えをえらぼう" /></h2>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2">
+            {answerChoices.map((choice) => (
+              <label
+                key={choice}
+                data-answer-choice={choice}
+                className={`flex min-h-14 cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 text-left text-lg font-black transition ${
+                  selectedAnswer === choice
+                    ? "border-blue-600 bg-blue-100 text-blue-950"
+                    : "border-slate-200 bg-white hover:border-blue-300"
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="answer"
+                  value={choice}
+                  checked={selectedAnswer === choice}
+                  onChange={() => setSelectedAnswer(choice)}
+                  className="h-5 w-5 shrink-0 accent-blue-600"
+                />
+                <span><RubyText text={choice} /></span>
+              </label>
+            ))}
+          </div>
+        </section>
 
-      <section className="mt-5">
-        <h2 className="text-lg font-black"><RubyText text="どう考えた？" /></h2>
-        <div className="mt-3 grid gap-3">
-          {thinkingChoices.map((choice) => (
-            <button
-              key={choice}
-              type="button"
-              data-thinking-choice={choice}
-              onClick={() => setSelectedThinking(choice)}
-              className={`min-h-12 rounded-lg border-2 px-4 py-3 text-left text-base font-bold transition ${
-                selectedThinking === choice
-                  ? "border-emerald-600 bg-emerald-100 text-emerald-950"
-                  : "border-slate-200 bg-white hover:border-emerald-300"
-              }`}
-            >
-              <RubyText text={choice} />
-            </button>
-          ))}
-        </div>
-      </section>
+        <section className="mt-5">
+          <h2 className="text-lg font-black"><RubyText text="どう考えた？" /></h2>
+          <div className="mt-3 grid gap-3">
+            {thinkingChoices.map((choice) => (
+              <label
+                key={choice}
+                data-thinking-choice={choice}
+                className={`flex min-h-12 cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 text-left text-base font-bold transition ${
+                  selectedThinking === choice
+                    ? "border-emerald-600 bg-emerald-100 text-emerald-950"
+                    : "border-slate-200 bg-white hover:border-emerald-300"
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="thinking"
+                  value={choice}
+                  checked={selectedThinking === choice}
+                  onChange={() => setSelectedThinking(choice)}
+                  className="h-5 w-5 shrink-0 accent-emerald-600"
+                />
+                <span><RubyText text={choice} /></span>
+              </label>
+            ))}
+          </div>
+        </section>
+      </form>
 
       <div className="mt-5">
         <HintBox
@@ -93,9 +116,8 @@ export function QuestionCard({ question, index, total, onAnswered }: QuestionCar
         data-correct-answer={question.answer}
         data-best-thinking={question.bestThinking}
         data-explanation={question.explanation}
-        disabled={!canSubmit}
-        onClick={() => onAnswered(selectedAnswer, selectedThinking, hintCount)}
-        className="mt-6 w-full rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-red-600 disabled:bg-slate-300"
+        onClick={submitAnswer}
+        className="mt-6 w-full rounded-lg bg-red-500 px-6 py-4 text-xl font-black text-white shadow-lg transition hover:bg-red-600"
       >
         <RubyText text="答え合わせをする" />
       </button>

@@ -468,6 +468,27 @@ export function addOwnedCard(card: WarriorCard) {
 
 type RewardStore = Record<string, { cardId: string; saved: boolean }>;
 
+function recentOwnedCardIds(limit = 5) {
+  return getOwnedCards()
+    .slice()
+    .sort((a, b) => new Date(b.lastEarnedAt).getTime() - new Date(a.lastEarnedAt).getTime())
+    .slice(0, limit)
+    .map((card) => card.id);
+}
+
+function chooseRewardPool(pool: WarriorCard[]) {
+  const source = pool.length ? pool : warriorCards;
+  const ownedIds = new Set(getOwnedCards().map((card) => card.id));
+  const recentIds = new Set(recentOwnedCardIds());
+  const unowned = source.filter((card) => !ownedIds.has(card.id));
+  const preferred = unowned.length ? unowned : source;
+  const withoutRecent = preferred.filter((card) => !recentIds.has(card.id));
+  if (withoutRecent.length) return withoutRecent;
+
+  const globalWithoutRecent = warriorCards.filter((card) => !recentIds.has(card.id));
+  return globalWithoutRecent.length ? globalWithoutRecent : preferred;
+}
+
 export function getMissionRewardCard(records: AnswerRecord[], missionId = getCurrentMission()?.id ?? "legacy") {
   const saved = readJson<RewardStore>(REWARD_CARDS_KEY, {});
   const savedReward = saved[missionId];
@@ -481,8 +502,9 @@ export function getMissionRewardCard(records: AnswerRecord[], missionId = getCur
     (sum, record) => sum + record.questionId.length + (record.isCorrect ? 7 : 2) + record.completedAt.length,
     missionId.length
   );
-  const rewardPool = featuredCards.length ? featuredCards : warriorCards;
-  const card = pickRewardCard(seed, rewardPool);
+  const rewardPool = chooseRewardPool(featuredCards.length ? featuredCards : warriorCards);
+  const randomSeed = seed + Date.now() + Math.floor(Math.random() * 100000);
+  const card = pickRewardCard(randomSeed, rewardPool);
   writeJson<RewardStore>(REWARD_CARDS_KEY, { ...saved, [missionId]: { cardId: card.id, saved: false } });
   return { card, saved: false };
 }

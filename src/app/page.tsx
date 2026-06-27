@@ -142,7 +142,7 @@ export default function Home() {
         <section className="mt-5 grid gap-3 sm:grid-cols-3">
           <div className="rounded-lg border-2 border-red-200 bg-white p-4 shadow-sm">
             <p className="text-sm font-black text-red-700">カード作戦</p>
-            <p className="mt-1 text-base font-bold text-slate-700">10問完了で武将カードを1枚ゲット。</p>
+            <p className="mt-1 text-base font-bold text-slate-700">答えと考え方をそろえて正解すると武将カードをゲット。</p>
           </div>
           <div className="rounded-lg border-2 border-amber-200 bg-white p-4 shadow-sm">
             <p className="text-sm font-black text-amber-700">デッキパワー</p>

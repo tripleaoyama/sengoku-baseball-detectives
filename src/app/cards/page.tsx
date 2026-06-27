@@ -63,7 +63,7 @@ export default function CardsPage() {
           <p className="text-sm font-black text-red-600">カードゲーム要素</p>
           <h1 className="mt-1 text-3xl font-black text-slate-950">武将カード図鑑</h1>
           <p className="mt-3 text-base font-bold leading-7 text-slate-700">
-            今日の試合をクリアするとカードを1枚ゲット。カードが集まるほど、少年軍師デッキが強くなるよ。
+            答えと考え方をそろえて正解した試合でカードを1枚ゲット。カードが集まるほど、少年軍師デッキが強くなるよ。
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-5">
             <div className="rounded-lg bg-amber-100 p-4">

@@ -24,7 +24,10 @@ export default function ResultPage() {
     setRequiredCount(nextRequiredCount);
     setRecords(missionRecords);
     setStadiumName(getStadiumById(mission?.stadiumId).name);
-    if (mission && missionRecords.length >= nextRequiredCount) {
+    const rewardEligible =
+      missionRecords.length >= nextRequiredCount &&
+      missionRecords.every((record) => record.isCorrect && record.isThinkingCorrect);
+    if (mission && rewardEligible) {
       setRewardCard(saveMissionRewardCard(missionRecords, mission.id));
     }
   }, []);
@@ -38,6 +41,8 @@ export default function ResultPage() {
     records.filter((record) => record.isThinkingCorrect).length >= 2
       ? "考え方を選ぶ力が出ています。答えだけでなく、どの言葉や条件を見たかを聞いてあげるとよいです。"
       : "今日は作戦の選び方を練習しました。表にする、順に書く、本文に戻るなどの行動をほめてください。";
+  const missionComplete = records.length >= requiredCount;
+  const rewardEligible = missionComplete && records.every((record) => record.isCorrect && record.isThinkingCorrect);
 
   return (
     <main className="pattern-field min-h-screen px-4 py-6 sm:px-6">
@@ -76,6 +81,16 @@ export default function ResultPage() {
             </Link>
           </div>
         )}
+        {missionComplete && !rewardEligible && (
+          <section className="mt-5 rounded-lg border-2 border-amber-200 bg-white p-5 shadow-sm">
+            <p className="text-sm font-black text-amber-700">カード獲得条件</p>
+            <h2 className="mt-1 text-2xl font-black text-slate-950">カードは次の試合でね</h2>
+            <p className="mt-3 text-base font-bold leading-7 text-slate-700">
+              武将カードは、答えと考え方の両方をすべて正解できた試合でもらえます。
+              今日の直しポイントを確認して、もう一試合チャレンジしよう。
+            </p>
+          </section>
+        )}
         <section className="mt-5 rounded-lg border-2 border-slate-200 bg-white p-5 shadow-sm">
           <h2 className="text-xl font-black text-slate-950">親向けコメント</h2>
           <p className="mt-3 text-base font-bold leading-7 text-slate-700">{parentComment}</p>
@@ -88,7 +103,7 @@ export default function ResultPage() {
             残りのミッションへ
           </Link>
         )}
-        {records.length >= requiredCount && (
+        {missionComplete && (
           <button
             type="button"
             onClick={playAgain}
